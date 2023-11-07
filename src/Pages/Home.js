@@ -8,11 +8,11 @@ import ServicesHome from "../HomeSections/ServicesHome";
 const Home = () => {
   return (
     <>
+      <ServicesHome />
       <WhyNxtskill />
       <Banner />
-      <ContactForm />
       <Progress />
-      <ServicesHome />
+      <ContactForm />
     </>
   );
 };
