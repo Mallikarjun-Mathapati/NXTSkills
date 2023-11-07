@@ -1,0 +1,455 @@
+.why-nxt {
+  width: 100%;
+}
+.why-nxt-heading {
+  flex-direction: column;
+  gap: 1rem;
+}
+.why-nxt-grid {
+  margin: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4.375rem;
+  align-items: baseline;
+}
+.why-nxt-grid-1 {
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.why-nxt-grid-1 img {
+  width: 4.75rem;
+  transition: all 0.5s;
+  height: auto;
+}
+.why-nxt-grid-1 img:hover {
+  transform: scale(1.1);
+}
+.why-nxt-grid-1 h3 {
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.why-nxt-grid-1 p {
+  color: #000;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.6875rem;
+  text-transform: capitalize;
+}
+@media (max-width: 1024px) {
+  .why-nxt-grid {
+    gap: 2.5rem;
+  }
+  .why-nxt-grid-1 h3 {
+    font-size: 1.1rem;
+  }
+  .why-nxt-grid-1 p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+  .why-nxt-grid-1 img {
+    width: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .why-nxt-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .why-nxt-heading h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .why-nxt-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .why-nxt-heading h2 {
+    font-size: 2.2rem;
+  }
+}
+/* BANNER  */
+.banner {
+  width: 100%;
+  margin: 5rem 0;
+}
+.banner-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3.7rem 6.2rem;
+  border-radius: 0rem 12.5rem 0rem 0rem;
+  background: #407bff;
+}
+
+.banner-grid-content {
+}
+.banner-grid-content h4 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.1875rem;
+  text-transform: capitalize;
+}
+.banner-grid-content p {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 2.5rem 0;
+}
+.banner-grid-content a {
+  display: flex;
+  justify-content: center;
+  margin-right: 7rem;
+}
+.banner-grid-content a button {
+  all: unset;
+  padding: 0.7rem 1.8rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  color: #407bff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 3.5rem 0 0;
+}
+.banner-grid-svg img {
+  width: 75%;
+}
+@media (max-width: 1024px) {
+  .banner-grid-svg img {
+    width: 80%;
+  }
+  .banner-grid {
+    padding: 3.7rem 3.2rem;
+  }
+  .banner-grid-content a {
+    margin: 0;
+  }
+  .banner-grid-content a button {
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .banner-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    border-radius: 0rem 6.5rem 0rem 0rem;
+  }
+  .banner-grid-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .banner-grid-content p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 425px) {
+  .banner-grid {
+    padding: 1rem;
+    border-radius: 0rem 2.5rem 0rem 0rem;
+  }
+  .banner-grid-content h4 {
+    font-size: 1.8rem;
+  }
+  .banner-grid-content p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 320px) {
+  .banner-grid-svg {
+    display: none;
+  }
+}
+
+/* CONTACT FORM  */
+.contact-form {
+  width: 100%;
+  margin: 5rem 0;
+}
+.contact-from-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.contact-from-grid-details-heading {
+  flex-direction: column;
+  align-items: baseline;
+}
+.contact-from-grid-details-heading h2 {
+  width: 95%;
+}
+.contact-from-grid-details-heading p {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 1.6rem 0;
+  width: 85%;
+}
+.same-grid {
+  border-radius: 0.3125rem;
+  background: #f6f6f6;
+  padding: 1rem 1rem;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.same-grid h5 {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.same-grid img {
+}
+.same-grid a p {
+  color: #000;
+  font-weight: 600;
+}
+.contact-from-grid-details-contact {
+  margin: 3rem 0;
+}
+.contact-from-grid-details-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.contact-from-grid-details-contact-grid-1 {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.contact-from-grid-details-contact-3 {
+  align-items: flex-start;
+}
+.contact-from-grid-from {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.same-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.same-form label {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.same-form input {
+  border: 1px solid #c9c9c9;
+  background: #fff;
+  height: 3rem;
+  padding-left: 2rem;
+}
+.same-form label span {
+  color: red;
+}
+.same-form textarea {
+  border: 1px solid #c9c9c9;
+  color: black;
+  height: 10rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+.same-form input,
+.same-form textarea::placeholder {
+  /* color: #060606; */
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.same-form input,
+.same-form textarea:focus {
+  /* border: 1px solid #000; */
+  /* outline: 1px solid black; */
+}
+
+.contact-from-first-last-name {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.contact-form-button {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.contact-form-button p {
+  color: #000;
+  font-weight: 500;
+}
+.contact-form-button button {
+  all: unset;
+  padding: 0.8rem 0;
+  width: 10.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  background: #407bff;
+  text-align: center;
+}
+@media (max-width: 950px) {
+  .contact-from-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-from-grid-details-heading {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-from-grid-details-heading h2,
+  .contact-from-grid-details-heading p {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .contact-from-grid-details-heading h2 {
+    font-size: 2.5rem;
+  }
+  .contact-from-grid-details-heading p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 550px) {
+  .contact-from-first-last-name {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}
+@media (max-width: 450px) {
+  .contact-from-grid-details-contact-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .same-grid {
+    padding: 0;
+  }
+  .contact-from-grid-details-heading h2 {
+    font-size: 2.2rem;
+  }
+  .contact-from-grid-details-heading p {
+    font-size: 0.9rem;
+  }
+}
+
+/* PROGRESS  */
+
+.progress {
+  width: 100%;
+}
+.progress-heading {
+}
+.progress-heading h2 {
+  width: 49rem;
+}
+.progress-heading p {
+  width: 33.4375rem;
+  color: #515151;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-top: 3rem;
+}
+.progress-heading p span {
+  color: #000;
+  font-weight: 700;
+}
+.progress-main-grid {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.progress-grid-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 15rem);
+  gap: 1.5rem;
+}
+.progress-same {
+  position: relative;
+  display: flex;
+  align-items: self-end;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  background: #f2f0f0;
+  z-index: 1;
+  overflow: hidden;
+}
+.progress-same h2 {
+  text-align: right;
+}
+.progress-same p {
+  align-self: start;
+  padding-top: 1rem;
+}
+.svgfile {
+  position: absolute;
+  right: -13px;
+  top: 125px;
+  width: 50%;
+  text-align: right;
+  z-index: -1;
+}
+@media (max-width: 1024px) {
+  .progress-same h2 {
+    font-size: 2.5rem;
+  }
+  .progress-grid-1 {
+    grid-template-rows: repeat(7, 13rem);
+  }
+  .progress-heading h2 {
+    width: 100%;
+  }
+  .progress-same p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .progress-heading h2 {
+    font-size: 2.5rem;
+  }
+  .progress-main-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .progress-grid-1 {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .svgfile {
+    top: 80px;
+    opacity: 0.5;
+  }
+  .progress-heading p {
+    width: 100%;
+  }
+  .progress-same {
+  }
+  .progress-same p {
+  }
+}
+@media (max-width: 650px) {
+  .progress-grid-1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 425px) {
+  .progress-same {
+    padding: 0.8rem 1rem;
+  }
+  .progress-heading h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .progress-grid-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
