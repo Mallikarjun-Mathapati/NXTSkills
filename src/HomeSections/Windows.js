@@ -15,15 +15,26 @@ const Windows = () => {
         <div className="container">
           <div className="windows-main-flex flex">
             <div className="windows-grid">
-              <div className="window windows-grid-1 flex">1</div>
+              <Link to="/" className="window windows-grid-1 flex">
+                <div className="windows-grid-1-hide"></div>
+                <h4>PROJECTS</h4>
+              </Link>
               <div className="window windows-grid-2"></div>
-              <div className="window windows-grid-3 flex">3</div>
+              <Link to="/" className="window windows-grid-3 flex">
+                <div className="windows-grid-3-hide"></div>
+                <h4>BLOG</h4>
+              </Link>
               <div className="window windows-grid-4 flex">
                 <div className="windows-grid-4-hide flex"></div>
                 <img src={Person} alt="Name" />
               </div>
               <div className="window windows-grid-5"></div>
-              <div className="window windows-grid-6 flex">6</div>
+              <Link to="/Services" className="window windows-grid-6 flex">
+                <div className="windows-grid-6-hide"></div>
+                <div className="windows-grid-6-h4">
+                  <h4>SERVICES</h4>
+                </div>
+              </Link>
               <div className="window windows-grid-7"></div>
               <Link
                 to="/About-Us"
@@ -31,7 +42,7 @@ const Windows = () => {
                 className="window windows-grid-8 flex"
               >
                 <div className="windows-grid-8-front flex">
-                  <h4>ABOUT US</h4>
+                  {/* <h4>ABOUT US</h4> */}
                 </div>
                 <div className="windows-grid-8-hide flex">
                   <h3>Nxt Skills</h3>
