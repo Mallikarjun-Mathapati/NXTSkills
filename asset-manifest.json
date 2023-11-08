@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NXTSkills/static/css/main.17fc6413.css",
-    "main.js": "/NXTSkills/static/js/main.413047f5.js",
+    "main.js": "/NXTSkills/static/js/main.7df97d06.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/Aboutusmain.gif": "/NXTSkills/static/media/Aboutusmain.0e319606c0a501bfad4c.gif",
     "static/media/Banner-illu.png": "/NXTSkills/static/media/Banner-illu.17df0d3dca9c69962aa2.png",
@@ -13,11 +13,11 @@
     "static/media/Face.svg": "/NXTSkills/static/media/Face.bb2934ca23c1cff31dd6a503e0c7901a.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
     "main.17fc6413.css.map": "/NXTSkills/static/css/main.17fc6413.css.map",
-    "main.413047f5.js.map": "/NXTSkills/static/js/main.413047f5.js.map",
+    "main.7df97d06.js.map": "/NXTSkills/static/js/main.7df97d06.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17fc6413.css",
-    "static/js/main.413047f5.js"
+    "static/js/main.7df97d06.js"
   ]
 }
