@@ -4,6 +4,7 @@ import Banner from "../HomeSections/Banner";
 import ContactForm from "../HomeSections/ContactForm";
 import Progress from "../HomeSections/Progress";
 import ServicesHome from "../HomeSections/ServicesHome";
+import Windows from "../HomeSections/Windows";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <ServicesHome />
       <WhyNxtskill />
       <Progress />
+      <Windows />
       <Banner />
       <ContactForm />
     </>
