@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/NXTSkills/static/css/main.17fc6413.css",
-    "main.js": "/NXTSkills/static/js/main.7df97d06.js",
+    "main.css": "/NXTSkills/static/css/main.93cbcf85.css",
+    "main.js": "/NXTSkills/static/js/main.8e4fd913.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/Aboutusmain.gif": "/NXTSkills/static/media/Aboutusmain.0e319606c0a501bfad4c.gif",
+    "static/media/person.png": "/NXTSkills/static/media/person.4b5baa19210d1ff26915.png",
     "static/media/Banner-illu.png": "/NXTSkills/static/media/Banner-illu.17df0d3dca9c69962aa2.png",
     "static/media/Logo.svg": "/NXTSkills/static/media/Logo.6ed3328718cd2d2745339711f6a57a78.svg",
+    "static/media/ri_instagram-fill.svg": "/NXTSkills/static/media/ri_instagram-fill.3153dbdf18b2b0645962c90a72f7eccc.svg",
     "static/media/Insta.svg": "/NXTSkills/static/media/Insta.9e60ab52601414817977ae3e3d3113a3.svg",
+    "static/media/ri_whatsapp-fill.svg": "/NXTSkills/static/media/ri_whatsapp-fill.17258d0df49288783d4557702cf0359e.svg",
+    "static/media/bi_twitter.svg": "/NXTSkills/static/media/bi_twitter.b4159cd939849cdb2d0ebc07786eaae4.svg",
     "static/media/Twitter.svg": "/NXTSkills/static/media/Twitter.2e6b2f040df955b27bc898e14e649384.svg",
+    "static/media/ph_phone-fill.svg": "/NXTSkills/static/media/ph_phone-fill.4b85f8dff1fb566d8861ab56156287dc.svg",
     "static/media/email.svg": "/NXTSkills/static/media/email.7fa4d8f2ed37b8d78da96137220e7746.svg",
+    "static/media/ion_location-sharp.svg": "/NXTSkills/static/media/ion_location-sharp.1b5b340b0b906c542c7dc6683b6ded89.svg",
     "index.html": "/NXTSkills/index.html",
     "static/media/Face.svg": "/NXTSkills/static/media/Face.bb2934ca23c1cff31dd6a503e0c7901a.svg",
+    "static/media/lucide_facebook.svg": "/NXTSkills/static/media/lucide_facebook.52b7808764d5776425c347294042a7e6.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
-    "main.17fc6413.css.map": "/NXTSkills/static/css/main.17fc6413.css.map",
-    "main.7df97d06.js.map": "/NXTSkills/static/js/main.7df97d06.js.map",
+    "main.93cbcf85.css.map": "/NXTSkills/static/css/main.93cbcf85.css.map",
+    "main.8e4fd913.js.map": "/NXTSkills/static/js/main.8e4fd913.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17fc6413.css",
-    "static/js/main.7df97d06.js"
+    "static/css/main.93cbcf85.css",
+    "static/js/main.8e4fd913.js"
   ]
 }
