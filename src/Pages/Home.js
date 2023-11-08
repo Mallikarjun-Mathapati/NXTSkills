@@ -10,8 +10,8 @@ const Home = () => {
     <>
       <ServicesHome />
       <WhyNxtskill />
-      <Banner />
       <Progress />
+      <Banner />
       <ContactForm />
     </>
   );
