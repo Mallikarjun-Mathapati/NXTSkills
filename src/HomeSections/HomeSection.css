@@ -459,8 +459,9 @@
 .windows {
   width: 100%;
   margin: 5rem 0;
-  padding: 5rem 0;
-  /* background-color: #e4e4e4; */
+  padding: 15rem 0;
+  background: #2b142c;
+  /* border-radius: 10rem 10rem 10rem 10rem; */
 }
 .window {
   /* background-color: aqua; */
@@ -497,7 +498,7 @@
 .windows-grid-13,
 .windows-grid-14 {
   background: #fff;
-  box-shadow: -17px 0px 99px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: -17px 0px 99px 0px rgba(81, 81, 81, 0.25);
 }
 .windows-grid-1 {
   background: red;

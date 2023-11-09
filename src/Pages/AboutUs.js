@@ -2,6 +2,9 @@ import React from "react";
 import AboutUS from "../Images/Pages/About Us/Aboutusmain.gif";
 import SubPageHead from "../Components/SubPageHead";
 import MainProgress from "../Components/MainProgress";
+import ImageScroll from "../Components/ImageScroll";
+import ImagesScroll1 from "../Images/OMS/Brands 2.png";
+import ImagesScroll2 from "../Images/OMS/BRANDS.png";
 
 const AboutUs = () => {
   return (
@@ -88,6 +91,23 @@ grow & compete with the big guys."
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="about-image-scroll-container">
+        <div className="about-image-scroll">
+          <ImageScroll
+            ImageScrollImage={ImagesScroll2}
+            ImageScrollImgClass2="about-image-scroll-1"
+          />
+        </div>
+        <div className="about-image-scroll-heading">
+          <h4>Brands that Trust our IT Solutions And Technology Partners </h4>
+        </div>
+        <div className="about-image-scroll">
+          <ImageScroll
+            ImageScrollImage={ImagesScroll1}
+            ImageScrollImgClass="about-image-scroll"
+          />
         </div>
       </div>
     </>
