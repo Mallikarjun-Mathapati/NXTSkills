@@ -123,6 +123,7 @@
   color: #e82f6f !important;
 }
 .navbar-mobile-menu {
+  z-index: 99999999;
   justify-content: flex-end;
   align-items: center;
   gap: 3rem;
@@ -146,6 +147,7 @@
   transition: all 0.5s ease-in-out;
   top: 0;
   left: -100%;
+  z-index: 999999;
 }
 
 .mobile-responsive-links {
@@ -158,6 +160,7 @@
   background: #ffffff;
   transition: all 0.5s ease-in-out;
   gap: 1rem;
+  z-index: 99999;
 }
 .mobile-responsive-links a {
   font-weight: 500;
@@ -178,6 +181,7 @@
   .mobile-responsive-open {
     display: flex;
     left: 0px;
+    z-index: 99999;
   }
   .navbar-mobile-menu {
     display: flex;
