@@ -498,11 +498,11 @@
 /* IMAGE SCROLL  */
 .text-scroller-main-img {
   display: flex;
-  animation: image 30s infinite linear forwards;
+  animation: image 40s infinite linear forwards;
 }
 
 .text-scroller-main-img img {
-  width: 150%;
+  width: 120%;
 }
 .text-scroller-main-img-1 {
   margin-right: 1rem;
