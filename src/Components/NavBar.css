@@ -529,4 +529,17 @@
       transform: translateX(0%);
     }
   }
+  .text-scroller-auto-1 p {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 768px) {
+  .text-scroller-auto-1 p {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 425px) {
+  .text-scroller-auto-1 p {
+    font-size: 3rem;
+  }
 }

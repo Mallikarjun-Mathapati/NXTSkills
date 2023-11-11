@@ -1,14 +1,19 @@
 import React, { useState } from "react";
+import Line from "../Images/NXT Power/Background line.svg";
+import NxtPowerResponsive from "./Responsive/NxtPowerResponsive";
+import TextScroll from "../Components/TextScroll";
 
 const NxtSkillsPower = () => {
   const [hide, setHide] = useState(false);
   const [hide1, setHide1] = useState(false);
   const [hide2, setHide2] = useState(false);
   const [hide3, setHide3] = useState(false);
-  console.log(hide);
   return (
     <>
       <div className="nxt-skills-power">
+        <div className="nxt-power-background-line">
+          <img src={Line} alt="Background Line" />
+        </div>
         <div className="nxt-skills-power-heading">
           <h2>
             How We Transform Organizations by Unleashing the Power of NXTSkills.
@@ -17,16 +22,21 @@ const NxtSkillsPower = () => {
 
         <div className="container">
           <div className="nxt-skills-power-main-grid flex">
-            <div
-              className={`nxt-skills-power-ball ${
-                hide ? "power-sub-gird-2-ball" : ""
-              } ${hide1 ? "power-sub-gird-8-ball" : ""} ${
-                hide1 ? "power-sub-gird-8-ball" : ""
-              } ${hide2 ? "power-sub-gird-9-ball" : ""}${
-                hide3 ? "power-sub-gird-12-ball" : ""
-              }`}
-            ></div>
+            <div className="nxt-skills-power-ball-0 same-next-power-ball"></div>
+            <div className="nxt-skills-power-ball-2 same-next-power-ball"></div>
+            <div className="nxt-skills-power-ball-3 same-next-power-ball"></div>
+            <div className="nxt-skills-power-ball-4 same-next-power-ball"></div>
             <div className="nxt-skills-power-gird-1 ">
+              <div
+                className={`nxt-skills-power-ball ${
+                  hide ? "power-sub-gird-2-ball" : ""
+                } ${hide1 ? "power-sub-gird-8-ball" : ""} ${
+                  hide1 ? "power-sub-gird-8-ball" : ""
+                } ${hide2 ? "power-sub-gird-9-ball" : ""}${
+                  hide3 ? "power-sub-gird-12-ball" : ""
+                }`}
+              ></div>
+              <div className="nxt-skills-power-ball"></div>
               <div className="nxt-skills-power-sub-gird">
                 <div className="power-same-grid power-sub-gird-1"></div>
                 <div
@@ -94,7 +104,7 @@ const NxtSkillsPower = () => {
                       <span>Streamlined Operations :</span> Say goodbye to
                       inefficiencies. We optimize your operations, allowing you
                       to do more with less. This translates to reduced costs
-                      higher productivity, and improved profitability.,
+                      higher productivity, and improved profitability.
                     </p>
                   </div>
                   <div
@@ -107,7 +117,7 @@ const NxtSkillsPower = () => {
                       Solutions Are Tailored To Supercharge Your Growth. With
                       Our Expertise, You'll Expand Your Horizons, Reach New
                       Markets, And Scale Your Business To Levels You've Only
-                      Dreamed Of..,
+                      Dreamed Of..
                     </p>
                   </div>
                   <div
@@ -138,7 +148,13 @@ const NxtSkillsPower = () => {
                 </div>
               </div>
             </div>
+            <div className="nxt-power-responsive-in-power">
+              <NxtPowerResponsive />
+            </div>
           </div>
+        </div>
+        <div className="nxt-power-text-scroll">
+          <TextScroll TextScrollText="nxt-power-text-scroll-p" />
         </div>
       </div>
     </>

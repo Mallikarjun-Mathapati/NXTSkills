@@ -783,11 +783,13 @@
   right: 0px;
   bottom: 0px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1150px) {
   .windows-grid {
     grid-template-columns: repeat(6, 110px);
     grid-template-rows: repeat(5, 110px);
   }
+}
+@media (max-width: 1024px) {
   .windows-grid-4 img {
     width: 6rem;
   }
@@ -843,12 +845,24 @@
 /* NXT SKILLS POWER  */
 .nxt-skills-power {
   position: relative;
-  padding: 3rem 0;
+  padding: 5rem 0;
   background: #0d0f11;
   width: 100%;
   color: white !important;
+  z-index: 1;
 }
 .nxt-skills-power-heading {
+  z-index: 1;
+  padding: 0 2.5rem;
+}
+.nxt-power-background-line {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.nxt-power-background-line img {
+  width: 100%;
 }
 .nxt-skills-power-heading h2 {
   color: #404243;
@@ -858,21 +872,66 @@
   text-transform: capitalize;
 }
 .nxt-skills-power-main-grid {
-  gap: 2rem;
+  gap: 3rem;
   justify-content: space-around;
   position: relative;
   z-index: 1;
 }
 .nxt-skills-power-ball {
   position: absolute;
-  height: 11.5rem;
-  width: 11.5rem;
+  height: 8rem;
+  width: 8rem;
   background: radial-gradient(50% 50% at 50% 50%, #fefefe 0%, #424242 100%);
   border-radius: 50%;
   top: 0px;
-  right: 80px;
+  right: -450px;
   transition: all 0.8s;
   z-index: -1;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  animation-iteration-count: infinite;
+}
+.nxt-skills-power-ball-1-1 {
+  position: absolute;
+  height: 8rem;
+  width: 8rem;
+  background: radial-gradient(50% 50% at 50% 50%, #fefefe 0%, #424242 100%);
+  border-radius: 50%;
+  top: 0px;
+  right: -450px;
+  transition: all 0.8s;
+  z-index: -1;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 200px, 0);
+  }
+}
+.same-next-power-ball {
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  top: 0px;
+  right: 0px;
+  background: radial-gradient(50% 50% at 50% 50%, #fefefe 0%, #424242 100%);
+  border-radius: 50%;
+  animation: bounce 0.7s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  animation-iteration-count: infinite;
+  z-index: -1;
+}
+.nxt-skills-power-ball-2 {
+  top: 0px;
+  right: 600px;
 }
 .nxt-skills-power-sub-gird {
   display: grid;
@@ -886,6 +945,7 @@
   background-position: center;
   transition: all 0.5s;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .power-same-grid p {
   text-align: center;
@@ -912,32 +972,40 @@
   background-image: url("../Images/NXT\ Power/hex.svg");
 }
 .power-sub-gird-2-ball {
-  top: 140px;
-  right: 870px;
+  top: 116px;
+  right: 188px;
+  filter: drop-shadow(0px 0px 50px rgba(231, 46, 111, 0.5));
+  background: radial-gradient(50% 50% at 50% 50%, #fefefe 0%, #e72e6f 100%);
 }
 .power-sub-gird-8-ball {
-  top: 320px;
-  right: 1034px;
+  top: 283px;
+  right: 356px;
+  filter: drop-shadow(0px 0px 50px rgba(231, 46, 111, 0.5));
+  background: radial-gradient(50% 50% at 50% 50%, #fefefe 0%, #e72e6f 100%);
 }
 .power-sub-gird-9-ball {
-  top: 310px;
-  right: 700px;
+  top: 283px;
+  right: 20px;
+  filter: drop-shadow(0px 0px 50px rgba(231, 46, 111, 0.5));
+  background: radial-gradient(50% 50% at 50% 50%, #fefefe 0%, #e72e6f 100%);
 }
 .power-sub-gird-12-ball {
-  top: 470px;
-  right: 865px;
+  top: 448px;
+  right: 190px;
+  filter: drop-shadow(0px 0px 50px rgba(231, 46, 111, 0.5));
+  background: radial-gradient(50% 50% at 50% 50%, #fefefe 0%, #e72e6f 100%);
 }
 .power-sub-gird-12:hover {
-  scale: 0.9;
+  transform: scale(0.9);
 }
 .power-sub-gird-9:hover {
-  scale: 0.9;
+  transform: scale(0.9);
 }
 .power-sub-gird-8:hover {
-  scale: 0.9;
+  transform: scale(0.9);
 }
 .power-sub-gird-2:hover {
-  scale: 0.9;
+  transform: scale(0.9);
 }
 .nxt-skills-power-gird-2 {
   width: 31rem;
@@ -995,4 +1063,159 @@
 .nxt-power-hidden-text-4-hide,
 .nxt-power-hidden-text-3-hide {
   display: flex;
+}
+@media (max-width: 1100px) {
+  .nxt-skills-power-sub-gird {
+    grid-template-columns: repeat(3, 136.1px);
+    grid-template-rows: repeat(10, 45px);
+  }
+  .power-same-grid p {
+    font-size: 0.7rem;
+  }
+  .nxt-skills-power-gird-2-detail h3 {
+    font-size: 1.5rem;
+    padding: 1.8rem 0;
+  }
+  .nxt-skills-power-gird-2-detail h4 {
+    font-size: 1.1rem;
+  }
+  .nxt-skills-power-gird-2-detail p {
+    font-size: 0.85rem;
+  }
+  .nxt-skills-power-gird-2 {
+    width: 100%;
+    margin-top: 5.625rem;
+  }
+  .nxt-power-hidden-text-1-main {
+    padding: 2rem 0 0 0;
+  }
+  .nxt-skills-power-heading h2 {
+    font-size: 2.5rem;
+  }
+  .nxt-skills-power-ball {
+    right: -400px;
+    width: 6.125rem;
+    height: 6.125rem;
+  }
+  .power-sub-gird-2-ball {
+    top: 120px;
+    right: 155px;
+  }
+  .power-sub-gird-8-ball {
+    top: 250px;
+    right: 290px;
+  }
+  .power-sub-gird-9-ball {
+    top: 256px;
+    right: 20px;
+  }
+  .power-sub-gird-12-ball {
+    top: 388px;
+    right: 155px;
+  }
+  @keyframes bounce {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, 150px, 0);
+    }
+  }
+}
+/* (Responsive powew) */
+.nxt-power-responsive-in-power {
+  display: none;
+}
+.nxt-power-responsive {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+.nxt-power-responsive-grid {
+  flex-direction: column;
+  border-radius: 0.4375rem;
+  background: #1e1e1e;
+  box-shadow: 8px 8px 0px 0px #000;
+  padding: 1.5rem 1rem;
+  transition: all 0.5s;
+}
+.nxt-power-responsive-grid h4 {
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.nxt-power-responsive-grid hr {
+  background: #fff;
+  height: 4px;
+  width: 30%;
+  border-radius: 40%;
+  margin: 1.3rem 0;
+}
+.nxt-power-responsive-grid p {
+  color: #b6b6b6;
+  text-align: center;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+}
+.nxt-power-responsive-grid:hover {
+  box-shadow: none;
+}
+
+@media (max-width: 900px) {
+  .nxt-skills-power-main-grid {
+    gap: 0;
+    flex-direction: column;
+  }
+  .nxt-skills-power-ball {
+    display: none;
+  }
+  .nxt-skills-power-sub-gird {
+    margin-bottom: 0;
+  }
+  .nxt-skills-power-gird-2 {
+    display: flex;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .nxt-skills-power-sub-gird {
+    margin-top: 3rem;
+  }
+}
+.nxt-skills-power-gird-1 {
+  position: relative;
+}
+@media (max-width: 500px) {
+  .nxt-power-responsive-in-power {
+    display: inline-block;
+  }
+  .nxt-skills-power-main-grid {
+    gap: 3rem;
+  }
+  .nxt-skills-power-gird-1 {
+    display: none;
+  }
+  .nxt-power-hidden-text-1-main {
+    display: none;
+  }
+  .nxt-skills-power-heading h2 {
+    font-size: 1.5rem;
+  }
+  .nxt-skills-power-gird-2-detail h3 {
+    font-size: 1.25rem;
+  }
+  .nxt-skills-power-gird-2-detail h4 {
+    font-size: 1rem;
+  }
+}
+/* NXT POWER TEXT SCROLL  */
+.nxt-power-text-scroll-p {
+  /* margin-top: 2rem; */
+}
+.nxt-power-text-scroll-p P {
+  color: #0e0e0e;
+  text-shadow: 0px 0px 7px rgba(160, 53, 156, 0.34);
+  color: #2c2727 !important;
 }
