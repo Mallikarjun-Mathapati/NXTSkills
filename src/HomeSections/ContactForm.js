@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Email from "../Images/HomeSection/Contact-form/email.svg";
+import ContactIcon from "../Images/HomeSection/Contact-form/Contact.svg";
 
 const ContactForm = () => {
   return (
@@ -18,25 +19,28 @@ const ContactForm = () => {
               </div>
               <div className="contact-from-grid-details-contact">
                 <div className="contact-from-grid-details-contact-grid">
-                  <div className="contact-from-grid-details-contact-1 same-grid flex">
-                    <img src={Email} alt="icon" />
+                  <div className="contact-from-grid-details-contact-1 same-grid-contact-form flex">
+                    <img src={Email} alt="Email icon" />
                     <h5>E-mail</h5>
-                    <Link to="/">
+                    <Link to="mailto:info@nxtskills.com">
                       <p>info@nxtskills.com</p>
                     </Link>
                   </div>
-                  <div className="contact-from-grid-details-contact-2 same-grid flex">
-                    <img src={Email} alt="icon" />
+                  <div className="contact-from-grid-details-contact-2 same-grid-contact-form flex">
+                    <img src={ContactIcon} alt="Contact icon" />
                     <h5>Ph.No.</h5>
-                    <Link to="/">
+                    <Link to="tel:+919008353635">
                       <p>+91 9008353635</p>
                     </Link>
                   </div>
                 </div>
                 <div className="contact-from-grid-details-contact-grid-1">
-                  <div className="contact-from-grid-details-contact-3 same-grid flex">
+                  <div className="contact-from-grid-details-contact-3 same-grid-contact-form flex">
                     <h5>Location : </h5>
-                    <Link to="">
+                    <Link
+                      to="https://maps.app.goo.gl/jwBRGYkN2StRG1qk7"
+                      target="_blank"
+                    >
                       <p>
                         197 New no 15, 4th Cross Road, 7th Block West, 7th
                         Block, Jayanagar, Bengaluru, Karnataka 560070

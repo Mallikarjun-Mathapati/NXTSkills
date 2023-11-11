@@ -188,21 +188,21 @@
   padding: 1.6rem 0;
   width: 85%;
 }
-.same-grid {
+.same-grid-contact-form {
   border-radius: 0.3125rem;
   background: #f6f6f6;
   padding: 1rem 1rem;
   flex-direction: column;
   gap: 0.7rem;
 }
-.same-grid h5 {
+.same-grid-contact-form h5 {
   color: #000;
   font-size: 1.25rem;
   font-weight: 600;
 }
-.same-grid img {
+.same-grid-contact-form img {
 }
-.same-grid a p {
+.same-grid-contact-form a p {
   color: #000;
   font-weight: 600;
 }
@@ -324,8 +324,8 @@
   .contact-from-grid-details-contact-grid {
     grid-template-columns: repeat(1, 1fr);
   }
-  .same-grid {
-    padding: 0;
+  .same-grid-contact-form {
+    padding: 1rem;
   }
   .contact-from-grid-details-heading h2 {
     font-size: 2.2rem;
