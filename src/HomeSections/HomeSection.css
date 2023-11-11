@@ -839,3 +839,160 @@
     display: none;
   }
 }
+
+/* NXT SKILLS POWER  */
+.nxt-skills-power {
+  position: relative;
+  padding: 3rem 0;
+  background: #0d0f11;
+  width: 100%;
+  color: white !important;
+}
+.nxt-skills-power-heading {
+}
+.nxt-skills-power-heading h2 {
+  color: #404243;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.nxt-skills-power-main-grid {
+  gap: 2rem;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+}
+.nxt-skills-power-ball {
+  position: absolute;
+  height: 11.5rem;
+  width: 11.5rem;
+  background: radial-gradient(50% 50% at 50% 50%, #fefefe 0%, #424242 100%);
+  border-radius: 50%;
+  top: 0px;
+  right: 80px;
+  transition: all 0.8s;
+  z-index: -1;
+}
+.nxt-skills-power-sub-gird {
+  display: grid;
+  grid-template-columns: repeat(3, 168px);
+  grid-template-rows: repeat(10, 55px);
+  justify-content: left;
+  margin: 6rem 0;
+}
+.power-same-grid {
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.power-same-grid p {
+  text-align: center;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 0 2.5rem;
+  margin-top: -3rem;
+}
+.power-sub-gird-2 {
+  grid-area: 1 / 2/ 5 / 3;
+  background-image: url("../Images/NXT\ Power/hex.svg");
+}
+.power-sub-gird-8 {
+  grid-area: 4 / 1/ 8 / 2;
+  background-image: url("../Images/NXT\ Power/hex.svg");
+}
+.power-sub-gird-9 {
+  grid-area: 4 / 3/ 8 / 4;
+  background-image: url("../Images/NXT\ Power/hex.svg");
+}
+.power-sub-gird-12 {
+  grid-area: 7 / 2/ 11 / 3;
+  background-image: url("../Images/NXT\ Power/hex.svg");
+}
+.power-sub-gird-2-ball {
+  top: 140px;
+  right: 870px;
+}
+.power-sub-gird-8-ball {
+  top: 320px;
+  right: 1034px;
+}
+.power-sub-gird-9-ball {
+  top: 310px;
+  right: 700px;
+}
+.power-sub-gird-12-ball {
+  top: 470px;
+  right: 865px;
+}
+.power-sub-gird-12:hover {
+  scale: 0.9;
+}
+.power-sub-gird-9:hover {
+  scale: 0.9;
+}
+.power-sub-gird-8:hover {
+  scale: 0.9;
+}
+.power-sub-gird-2:hover {
+  scale: 0.9;
+}
+.nxt-skills-power-gird-2 {
+  width: 31rem;
+  margin-top: 180px;
+}
+.nxt-skills-power-gird-2-detail h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.nxt-skills-power-gird-2-detail h3 {
+  color: white;
+  padding: 2.5rem 0;
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.nxt-skills-power-gird-2-detail p {
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+  text-transform: capitalize;
+}
+.nxt-power-hidden-text-1-main {
+  padding: 3rem 0 0 0;
+}
+.nxt-power-hidden-text-same {
+  display: none;
+}
+.nxt-power-hidden-text-1-p {
+  color: #b6b6b6;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 2.0625rem;
+  text-transform: capitalize;
+}
+.nxt-power-hidden-text-1-p span {
+  color: white;
+  font-weight: 800 !important;
+}
+.nxt-power-hidden-text-1 {
+  display: flex;
+}
+.nxt-power-hidden-text-1-hide {
+  display: none;
+}
+.nxt-power-hidden-text-2,
+.nxt-power-hidden-text-3,
+.nxt-power-hidden-text-4 {
+  display: none;
+}
+
+.nxt-power-hidden-text-2-hide,
+.nxt-power-hidden-text-4-hide,
+.nxt-power-hidden-text-3-hide {
+  display: flex;
+}
