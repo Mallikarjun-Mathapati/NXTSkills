@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NXTSkills/static/css/main.20236a40.css",
-    "main.js": "/NXTSkills/static/js/main.3338f9e9.js",
+    "main.css": "/NXTSkills/static/css/main.6ad79dcd.css",
+    "main.js": "/NXTSkills/static/js/main.0f7b7c56.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/Aboutusmain.gif": "/NXTSkills/static/media/Aboutusmain.0e319606c0a501bfad4c.gif",
     "static/media/BRANDS.png": "/NXTSkills/static/media/BRANDS.e315bc52089347360191.png",
@@ -16,6 +16,7 @@
     "static/media/ri_instagram-fill.svg": "/NXTSkills/static/media/ri_instagram-fill.3153dbdf18b2b0645962c90a72f7eccc.svg",
     "static/media/Insta.svg": "/NXTSkills/static/media/Insta.9e60ab52601414817977ae3e3d3113a3.svg",
     "static/media/ri_whatsapp-fill.svg": "/NXTSkills/static/media/ri_whatsapp-fill.17258d0df49288783d4557702cf0359e.svg",
+    "static/media/Background line.svg": "/NXTSkills/static/media/Background line.8b511b154aa4873aad087d67e0224fbe.svg",
     "static/media/hex.svg": "/NXTSkills/static/media/hex.f3a2a626c423cdfa8371.svg",
     "static/media/bi_twitter.svg": "/NXTSkills/static/media/bi_twitter.b4159cd939849cdb2d0ebc07786eaae4.svg",
     "static/media/Twitter.svg": "/NXTSkills/static/media/Twitter.2e6b2f040df955b27bc898e14e649384.svg",
@@ -26,12 +27,12 @@
     "static/media/Face.svg": "/NXTSkills/static/media/Face.bb2934ca23c1cff31dd6a503e0c7901a.svg",
     "static/media/lucide_facebook.svg": "/NXTSkills/static/media/lucide_facebook.52b7808764d5776425c347294042a7e6.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
-    "main.20236a40.css.map": "/NXTSkills/static/css/main.20236a40.css.map",
-    "main.3338f9e9.js.map": "/NXTSkills/static/js/main.3338f9e9.js.map",
+    "main.6ad79dcd.css.map": "/NXTSkills/static/css/main.6ad79dcd.css.map",
+    "main.0f7b7c56.js.map": "/NXTSkills/static/js/main.0f7b7c56.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20236a40.css",
-    "static/js/main.3338f9e9.js"
+    "static/css/main.6ad79dcd.css",
+    "static/js/main.0f7b7c56.js"
   ]
 }
