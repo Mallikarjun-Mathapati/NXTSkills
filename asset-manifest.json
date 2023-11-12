@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NXTSkills/static/css/main.1515fd3f.css",
-    "main.js": "/NXTSkills/static/js/main.9e9edbcf.js",
+    "main.css": "/NXTSkills/static/css/main.c0f2ea6b.css",
+    "main.js": "/NXTSkills/static/js/main.74b4c1da.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/Aboutusmain.gif": "/NXTSkills/static/media/Aboutusmain.0e319606c0a501bfad4c.gif",
     "static/media/BRANDS.png": "/NXTSkills/static/media/BRANDS.e315bc52089347360191.png",
@@ -25,15 +25,17 @@
     "static/media/email.svg": "/NXTSkills/static/media/email.7fa4d8f2ed37b8d78da96137220e7746.svg",
     "static/media/ion_location-sharp.svg": "/NXTSkills/static/media/ion_location-sharp.1b5b340b0b906c542c7dc6683b6ded89.svg",
     "index.html": "/NXTSkills/index.html",
+    "static/media/HEX-black-white.svg": "/NXTSkills/static/media/HEX-black-white.5576809c14d03e1eaaee.svg",
     "static/media/Face.svg": "/NXTSkills/static/media/Face.bb2934ca23c1cff31dd6a503e0c7901a.svg",
     "static/media/lucide_facebook.svg": "/NXTSkills/static/media/lucide_facebook.52b7808764d5776425c347294042a7e6.svg",
+    "static/media/HEX-color.svg": "/NXTSkills/static/media/HEX-color.90f2b649034dece27fb1.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
-    "main.1515fd3f.css.map": "/NXTSkills/static/css/main.1515fd3f.css.map",
-    "main.9e9edbcf.js.map": "/NXTSkills/static/js/main.9e9edbcf.js.map",
+    "main.c0f2ea6b.css.map": "/NXTSkills/static/css/main.c0f2ea6b.css.map",
+    "main.74b4c1da.js.map": "/NXTSkills/static/js/main.74b4c1da.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1515fd3f.css",
-    "static/js/main.9e9edbcf.js"
+    "static/css/main.c0f2ea6b.css",
+    "static/js/main.74b4c1da.js"
   ]
 }
