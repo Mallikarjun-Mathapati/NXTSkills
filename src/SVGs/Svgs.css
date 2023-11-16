@@ -1,0 +1,233 @@
+/* Cycer Security  */
+svg#freepik_stories-security:not(.animated) .animable {
+  opacity: 0;
+}
+
+svg#freepik_stories-security.animated #freepik--Floor--inject-2 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-security.animated #freepik--Clouds--inject-2 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-security.animated #freepik--Shield--inject-2 {
+  animation: 3s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-security.animated #freepik--Key--inject-2 {
+  animation: 3s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-security.animated #freepik--Character--inject-2 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(1deg);
+  }
+
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1.1);
+  }
+
+  30% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Audit  */
+svg#freepik_stories-audit:not(.animated) .animable {
+  opacity: 0;
+}
+
+svg#freepik_stories-audit.animated #freepik--background-complete--inject-9 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-audit.animated #freepik--Calculator--inject-9 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-audit.animated #freepik--character-1--inject-9 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-audit.animated #freepik--character-2--inject-9 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1.1);
+  }
+
+  30% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(1deg);
+  }
+
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* Office Management  */
+svg#freepik_stories-office-management:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-office-management.animated
+  #freepik--background-simple--inject-9 {
+  animation: 6s Infinite linear spin;
+  animation-delay: 0s;
+}
+svg#freepik_stories-office-management.animated #freepik--Calendars--inject-9 {
+  animation: 3s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-office-management.animated #freepik--Board--inject-9 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-office-management.animated #freepik--chair-2--inject-9 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-office-management.animated #freepik--chair-1--inject-9 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-office-management.animated #freepik--Character--inject-9 {
+  animation: 3s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

@@ -10,6 +10,7 @@ import Blog from "./Pages/Blog";
 import TopNav from "./Components/TopNav";
 import Footer from "./Components/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
+import ServiceSingle from "./Components/SingleService";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/Contact-us" Component={ContactUs} />
         <Route exact path="/Blog" Component={Blog} />
         <Route exact path="/Services" Component={Services} />
+        <Route exact path="/Services/:Servicename" Component={ServiceSingle} />
         <Route path="*" Component={Home} />
       </Routes>
       <Footer />

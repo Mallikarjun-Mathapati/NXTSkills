@@ -11,7 +11,7 @@ import ImageScroll from "../Components/ImageScroll";
 import ImagesScroll from "../Images/OMS/BRANDS.png";
 import NxtSkillsPower from "../HomeSections/NxtSkillsPower";
 import OurClient from "../HomeSections/OurClient";
-
+// import Testimonial from "../Components/Testimonial";
 const Home = () => {
   return (
     <>
@@ -24,6 +24,7 @@ const Home = () => {
       <Progress />
       <Windows />
       <Banner />
+      {/* <Testimonial /> */}
       <ContactForm />
     </>
   );
