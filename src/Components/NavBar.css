@@ -1,10 +1,12 @@
 .top-nav {
+  position: relative;
   width: 100%;
   padding: 0 6.25rem;
   background: #253559;
   height: 42px;
   display: flex;
   justify-content: space-between;
+  z-index: 99999999999;
 }
 .top-nav-flex {
   width: 100%;
@@ -23,6 +25,9 @@
 }
 .nav-social-icon a {
   color: white;
+}
+.nav-social-icon-hide {
+  display: none;
 }
 .top-nav-flex-2 {
   display: flex;
@@ -72,7 +77,9 @@
 .navbar {
   width: 100%;
   padding: 0.5rem 6.25rem;
-  background: black;
+  background: transparent;
+  position: relative;
+  z-index: 99999999999;
 }
 .navbar-grid {
   display: grid;
@@ -123,7 +130,8 @@
   color: #e82f6f !important;
 }
 .navbar-mobile-menu {
-  z-index: 99999999;
+  position: relative;
+  z-index: 99999999999999;
   justify-content: flex-end;
   align-items: center;
   gap: 3rem;
@@ -160,7 +168,7 @@
   background: #ffffff;
   transition: all 0.5s ease-in-out;
   gap: 1rem;
-  z-index: 99999;
+  z-index: 9999999999999;
 }
 .mobile-responsive-links a {
   font-weight: 500;
@@ -171,10 +179,19 @@
 .mobile-responsive-links a:hover {
   color: #e82f6f;
 }
+.navbar-mobile-social-link-x {
+  display: none;
+}
+.navbar-mobile-social-link-x-hide {
+  display: inline-block;
+}
 .navbar-mobile-social-link-x i {
   text-align: right;
   color: #e82f6f !important;
   transition: all 0.3s;
+}
+.navbar-mobile-social-link-hide {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -423,7 +440,8 @@
 /* Sub header  */
 
 .about-us-heading {
-  height: 22rem;
+  margin-top: -102px;
+  height: 26rem;
   width: 100%;
   background: #000;
   padding: 3.5rem 6.25rem;

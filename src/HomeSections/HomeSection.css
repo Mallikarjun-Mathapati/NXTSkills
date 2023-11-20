@@ -1535,6 +1535,10 @@
   font-weight: 500;
   line-height: 1.875rem;
   text-transform: capitalize;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 @media (max-width: 1024px) {

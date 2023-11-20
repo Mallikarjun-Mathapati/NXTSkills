@@ -11,10 +11,12 @@ import ImageScroll from "../Components/ImageScroll";
 import ImagesScroll from "../Images/OMS/BRANDS.png";
 import NxtSkillsPower from "../HomeSections/NxtSkillsPower";
 import OurClient from "../HomeSections/OurClient";
+import HeroSection from "../Components/HeroSection.js/HeroSection";
 // import Testimonial from "../Components/Testimonial";
 const Home = () => {
   return (
     <>
+      <HeroSection />
       <TextScroll />
       <ImageScroll ImageScrollImage={ImagesScroll} />
       <ServicesHome />

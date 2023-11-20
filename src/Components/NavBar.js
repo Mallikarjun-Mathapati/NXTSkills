@@ -23,7 +23,11 @@ const NavBar = () => {
           </div>
           {/* Mobile Responsive */}
           <div className="navbar-mobile-menu">
-            <div className="nav-social-icon">
+            <div
+              className={`nav-social-icon ${
+                menu ? "nav-social-icon-hide" : ""
+              }`}
+            >
               <Link target="_blank" to="/">
                 <i className="fa-brands fa-facebook"></i>
               </Link>
@@ -38,11 +42,23 @@ const NavBar = () => {
               </Link>
             </div>
             <div
-              className="navbar-mobile-social-link"
+              className={`navbar-mobile-social-link ${
+                menu ? "navbar-mobile-social-link-hide" : ""
+              }`}
               onClick={() => setMenu(true)}
             >
               <i className="fa-solid fa-bars fa-lg"></i>
             </div>
+            {/* start  */}
+            <div
+              className={`navbar-mobile-social-link-x ${
+                menu ? "navbar-mobile-social-link-x-hide" : ""
+              }`}
+              onClick={() => setMenu(false)}
+            >
+              <i className="fa-solid fa-xmark fa-xl"></i>
+            </div>
+            {/* end  */}
           </div>
         </div>
       </nav>
@@ -50,12 +66,12 @@ const NavBar = () => {
         className={`mobile-responsive ${menu ? "mobile-responsive-open" : ""}`}
       >
         <div className="mobile-responsive-links">
-          <div
+          {/* <div
             className="navbar-mobile-social-link-x"
             onClick={() => setMenu(false)}
           >
             <i className="fa-solid fa-xmark fa-xl"></i>
-          </div>
+          </div> */}
           <NavLink to="/" onClick={() => setMenu(false)}>
             {" "}
             Home

@@ -231,3 +231,413 @@ svg#freepik_stories-office-management.animated #freepik--Character--inject-9 {
     transform: translate3d(4px, 0, 0);
   }
 }
+
+/* CYBER SECURITY-2  */
+svg#freepik_stories-cyber-attack:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-cyber-attack.animated
+  #freepik--background-complete--inject-14 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-cyber-attack.animated #freepik--Icon--inject-14 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-cyber-attack.animated #freepik--Shield--inject-14 {
+  animation: 1.5s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-cyber-attack.animated #freepik--Character--inject-14 {
+  animation: 3s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-cyber-attack.animated #freepik--speech-bubble--inject-14 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-cyber-attack.animated #freepik--Bugs--inject-14 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* End Point Security  */
+svg#freepik_stories-mobile-login:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-mobile-login.animated
+  #freepik--background-complete--inject-4 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-mobile-login.animated #freepik--Device--inject-4 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-mobile-login.animated #freepik--Character--inject-4 {
+  animation: 3s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-mobile-login.animated #freepik--Plant--inject-4 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/* IT managed services  */
+. svg#freepik_stories-digital-transformation:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--background-complete--inject-15 {
+  animation: 3s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated #freepik--Plant--inject-15 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated #freepik--Arrow--inject-15 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated #freepik--Cloud--inject-15 {
+  animation: 3s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--Character--inject-15 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+/* IT MANPOWER  */
+svg#freepik_stories-remote-team:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-remote-team.animated #freepik--Screen--inject-17 {
+  animation: 1.5s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-team.animated #freepik--character-4--inject-17 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-team.animated #freepik--speech-bubble-2--inject-17 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-team.animated #freepik--speech-bubble-1--inject-17 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-team.animated #freepik--Plant--inject-17 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* it man power 2  */
+svg#freepik_stories-remote-meeting:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-remote-meeting.animated
+  #freepik--background-complete--inject-18 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-meeting.animated #freepik--Plant--inject-18 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-meeting.animated #freepik--character-2--inject-18 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-meeting.animated
+  #freepik--speech-bubbles--inject-18 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
