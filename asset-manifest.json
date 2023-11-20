@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/NXTSkills/static/css/main.100f9490.css",
-    "main.js": "/NXTSkills/static/js/main.da037c53.js",
+    "main.css": "/NXTSkills/static/css/main.9408f84f.css",
+    "main.js": "/NXTSkills/static/js/main.e715f575.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/Aboutusmain.gif": "/NXTSkills/static/media/Aboutusmain.0e319606c0a501bfad4c.gif",
+    "static/media/Slide-1.png": "/NXTSkills/static/media/Slide-1.14405de248dc8dfc055c.png",
     "static/media/BRANDS.png": "/NXTSkills/static/media/BRANDS.e315bc52089347360191.png",
     "static/media/Brands 2.png": "/NXTSkills/static/media/Brands 2.40fc9cc79917089305f2.png",
     "static/media/BLOGWINDOW.png": "/NXTSkills/static/media/BLOGWINDOW.e5cf5a77930e44d21970.png",
+    "static/media/slide-2-side.png": "/NXTSkills/static/media/slide-2-side.dac73fa06b3efe86f458.png",
     "static/media/person.png": "/NXTSkills/static/media/person.4b5baa19210d1ff26915.png",
     "static/media/Services.png": "/NXTSkills/static/media/Services.33bbe8cc85c732853c6f.png",
     "static/media/project.png": "/NXTSkills/static/media/project.1f6c00b894fe9d2464fe.png",
@@ -30,12 +32,12 @@
     "static/media/lucide_facebook.svg": "/NXTSkills/static/media/lucide_facebook.52b7808764d5776425c347294042a7e6.svg",
     "static/media/HEX-color.svg": "/NXTSkills/static/media/HEX-color.90f2b649034dece27fb1.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
-    "main.100f9490.css.map": "/NXTSkills/static/css/main.100f9490.css.map",
-    "main.da037c53.js.map": "/NXTSkills/static/js/main.da037c53.js.map",
+    "main.9408f84f.css.map": "/NXTSkills/static/css/main.9408f84f.css.map",
+    "main.e715f575.js.map": "/NXTSkills/static/js/main.e715f575.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.100f9490.css",
-    "static/js/main.da037c53.js"
+    "static/css/main.9408f84f.css",
+    "static/js/main.e715f575.js"
   ]
 }
