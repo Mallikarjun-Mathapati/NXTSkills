@@ -70,9 +70,9 @@ const HeroSection = () => {
               {/* </div> */}
             </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper-slide-hero-3 swiper-slide-hero-same">
+          {/* <SwiperSlide className="swiper-slide-hero-3 swiper-slide-hero-same">
             Slide 3
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </>

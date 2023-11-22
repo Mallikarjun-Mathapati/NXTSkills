@@ -12,21 +12,21 @@ const WhyNxtskill = () => {
     },
     {
       id: "2",
-      image: require("../Images/HomeSection/WhyNxt/Expart.png"),
+      image: require("../Images/HomeSection/WhyNxt/CentricA.png"),
       title: "Client-Centric Approach",
       description:
         "We prioritize your unique needs and goals, ensuring a personalized approach to every project.",
     },
     {
       id: "3",
-      image: require("../Images/HomeSection/WhyNxt/Expart.png"),
+      image: require("../Images/HomeSection/WhyNxt/CuttingEDG.png"),
       title: "Cutting-Edge Technology",
       description:
         " We stay at the forefront of technology trends to provide you with innovative solutions.",
     },
     {
       id: "4",
-      image: require("../Images/HomeSection/WhyNxt/Expart.png"),
+      image: require("../Images/HomeSection/WhyNxt/Support.png"),
       title: "Reliable Support",
       description:
         "Our dedicated support team is available to assist you whenever you need it, ensuring your systems run smoothly.",

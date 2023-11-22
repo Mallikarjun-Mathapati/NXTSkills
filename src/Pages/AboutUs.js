@@ -1,5 +1,5 @@
 import React from "react";
-import AboutUS from "../Images/Pages/About Us/Aboutusmain.gif";
+import AboutUsSvg from "../SVGs/AboutUsSvg";
 import SubPageHead from "../Components/SubPageHead";
 import MainProgress from "../Components/MainProgress";
 import ImageScroll from "../Components/ImageScroll";
@@ -52,7 +52,7 @@ grow & compete with the big guys."
               </p>
             </div>
             <div className="about-us-flex-img flex">
-              <img src={AboutUS} alt="" />
+              <AboutUsSvg />
             </div>
           </div>
           <div className="about-us-vision-mision">
