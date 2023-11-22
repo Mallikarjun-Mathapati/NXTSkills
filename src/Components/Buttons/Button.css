@@ -90,3 +90,25 @@
 .swiper-slide-hero-1-sub-button:after {
   background-color: #407bff;
 }
+
+/* Banner Button  */
+.banner-button-sub {
+  margin-top: 2rem;
+  color: #407bff;
+  font: 16px;
+  padding: 8px 30px;
+}
+.banner-button-sub:hover {
+  color: #ffffff;
+}
+
+.banner-button-sub:hover:before {
+  background-color: #407bff;
+}
+
+.banner-button-sub :hover:after {
+  background-color: #407bff;
+}
+.banner-button-sub:hover:after {
+  background-color: #407bff;
+}

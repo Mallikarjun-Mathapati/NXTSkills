@@ -98,21 +98,10 @@
   text-transform: capitalize;
   padding: 2.5rem 0;
 }
-.banner-grid-content a {
+.banner-grid-content .banner-button {
   display: flex;
-  justify-content: center;
-  margin-right: 7rem;
 }
-.banner-grid-content a button {
-  all: unset;
-  padding: 0.7rem 1.8rem;
-  border-radius: 0.5rem;
-  background: #fff;
-  color: #407bff;
-  font-size: 1.125rem;
-  font-weight: 700;
-  margin: 3.5rem 0 0;
-}
+
 .banner-grid-svg img {
   width: 75%;
 }
@@ -1223,7 +1212,7 @@
 /* OUR CLIENT  */
 .our-client {
   width: 100%;
-  padding: 7rem 0;
+  padding-bottom: 7rem;
   background: #0d0f11;
   color: white !important;
 }

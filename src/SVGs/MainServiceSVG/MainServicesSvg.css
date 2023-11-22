@@ -1,0 +1,1617 @@
+/* Cyber Security 1  */
+
+svg#freepik_stories-cyber-attack:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-cyber-attack.animated #freepik--Password--inject-2 {
+  animation: 1.5s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-cyber-attack.animated #freepik--Shield--inject-2 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-cyber-attack.animated #freepik--Character--inject-2 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-cyber-attack.animated #freepik--speech-bubble--inject-2 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-cyber-attack.animated #freepik--Bugs--inject-2 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+/* cyber security 2  */
+svg#freepik_stories-hacker:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-hacker.animated #freepik--background-simple--inject-13 {
+  animation: 6s Infinite linear spin;
+  animation-delay: 0s;
+}
+svg#freepik_stories-hacker.animated #freepik--Lamp--inject-13 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-hacker.animated #freepik--Icons--inject-13 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-hacker.animated #freepik--Character--inject-13 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* cyber security 3  */
+svg#freepik_stories-security-on:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-security-on.animated #freepik--background-simple--inject-1 {
+  animation: 6s Infinite linear spin;
+  animation-delay: 0s;
+}
+svg#freepik_stories-security-on.animated #freepik--Device--inject-1 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-security-on.animated #freepik--character-2--inject-1 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+/* ENDPOINT 1  */
+svg#freepik_stories-security:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-security.animated #freepik--background-complete--inject-2 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-security.animated #freepik--Password--inject-2 {
+  animation: 1.5s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-security.animated #freepik--Padlock--inject-2 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-security.animated #freepik--Key--inject-2 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-security.animated #freepik--Character--inject-2 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/* cyber security 4  */
+svg#freepik_stories-security-on:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-security-on.animated
+  #freepik--background-complete--inject-8 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-security-on.animated #freepik--Device--inject-8 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-security-on.animated #freepik--Shield--inject-8 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-security-on.animated #freepik--Character--inject-8 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* END POINT SECURITY 2  */
+svg#freepik_stories-mobile-login:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-mobile-login.animated #freepik--Device--inject-2 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-mobile-login.animated #freepik--Character--inject-2 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-mobile-login.animated #freepik--Plant--inject-2 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+/* END POINT SECURITY 3 */
+svg#freepik_stories-admin:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-admin.animated #freepik--Shadows--inject-14 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-admin.animated #freepik--Window--inject-14 {
+  animation: 1.5s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-admin.animated #freepik--Character--inject-14 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-admin.animated #freepik--Gears--inject-14 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* ITManaged 1  */
+svg#freepik_stories-devices:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-devices.animated #freepik--background-complete--inject-18 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-devices.animated #freepik--Computer--inject-18 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-devices.animated #freepik--Tablet--inject-18 {
+  animation: 1.5s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-devices.animated #freepik--Mobile--inject-18 {
+  animation: 1.5s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-devices.animated #freepik--Character--inject-18 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/* ITManaged 2  */
+svg#freepik_stories-digital-transformation:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--background-complete--inject-2 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated #freepik--Arrow--inject-2 {
+  animation: 3s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated #freepik--Cloud--inject-2 {
+  animation: 3s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--Character--inject-2 {
+  animation: 3s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+/* ITManaged 3 */
+svg#freepik_stories-digital-transformation:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--background-simple--inject-4 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated #freepik--Tab--inject-4 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--wifi-icon--inject-4 {
+  animation: 3s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--world-icon--inject-4 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--Locators--inject-4 {
+  animation: 3s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--cloud-2--inject-4 {
+  animation: 3s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--clouds-1--inject-4 {
+  animation: 3s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-digital-transformation.animated
+  #freepik--Character--inject-4 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+/* IT Power 1  */
+svg#freepik_stories-remote-meeting:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-remote-meeting.animated
+  #freepik--background-complete--inject-2 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-meeting.animated #freepik--character-4--inject-2 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-meeting.animated #freepik--character-2--inject-2 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-meeting.animated #freepik--speech-bubbles--inject-2 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-meeting.animated #freepik--Chart--inject-2 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+/* IT Power 2  */
+svg#freepik_stories-remote-team:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-remote-team.animated #freepik--Device--inject-5 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-team.animated #freepik--Screen--inject-5 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-team.animated #freepik--speech-bubble--inject-5 {
+  animation: 3s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-team.animated #freepik--character-3--inject-5 {
+  animation: 1.5s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-team.animated #freepik--character-2--inject-5 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-remote-team.animated #freepik--character-1--inject-5 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* IT Power 3 */
+svg#freepik_stories-company:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-company.animated #freepik--background-complete--inject-17 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-company.animated #freepik--character-5--inject-17 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-company.animated #freepik--character-4--inject-17 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-company.animated #freepik--character-2--inject-17 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-company.animated #freepik--character-3--inject-17 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-company.animated #freepik--speech-bubbles--inject-17 {
+  animation: 3s Infinite linear shake;
+  animation-delay: 0s;
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+/* IT Audit 1  */
+svg#freepik_stories-on-the-office:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-on-the-office.animated
+  #freepik--background-complete--inject-18 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-on-the-office.animated #freepik--Board--inject-18 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-on-the-office.animated #freepik--character-3--inject-18 {
+  animation: 3s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-on-the-office.animated #freepik--character-2--inject-18 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-on-the-office.animated #freepik--Device--inject-18 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+/* IT Audit 2 */
+svg#freepik_stories-business-plan:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-business-plan.animated #freepik--Graphics--inject-2 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-business-plan.animated #freepik--character-1--inject-2 {
+  animation: 3s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-business-plan.animated #freepik--character-2--inject-2 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+/* IT Audit 3  */
+svg#freepik_stories-business-plan:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-business-plan.animated
+  #freepik--background-complete--inject-7 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-business-plan.animated #freepik--Board--inject-7 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-business-plan.animated #freepik--character-2--inject-7 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-business-plan.animated #freepik--character-1--inject-7 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-business-plan.animated #freepik--speech-bubble--inject-7 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+/* IT Audit - 4  */
+svg#freepik_stories-site-stats:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-site-stats.animated
+  #freepik--background-complete--inject-22 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-site-stats.animated #freepik--Device--inject-22 {
+  animation: 3s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-site-stats.animated #freepik--chart-2--inject-22 {
+  animation: 3s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-site-stats.animated #freepik--chart-1--inject-22 {
+  animation: 3s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-site-stats.animated #freepik--Character--inject-22 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* IT Assets 1  */
+svg#freepik_stories-accept-tasks:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-accept-tasks.animated
+  #freepik--background-simple--inject-15 {
+  animation: 6s Infinite linear spin;
+  animation-delay: 0s;
+}
+svg#freepik_stories-accept-tasks.animated #freepik--Plants--inject-15 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-accept-tasks.animated #freepik--Window--inject-15 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-accept-tasks.animated #freepik--Character--inject-15 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-accept-tasks.animated #freepik--Device--inject-15 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+/* IT Assets 2  */
+svg#freepik_stories-time-management:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-time-management.animated
+  #freepik--Calendar--inject-1--inject-18 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-time-management.animated
+  #freepik--Gears--inject-1--inject-18 {
+  animation: 3s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-time-management.animated
+  #freepik--Wrench--inject-1--inject-18 {
+  animation: 3s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-time-management.animated
+  #freepik--Character--inject-1--inject-18 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+/* IT Assets3 */
+svg#freepik_stories-admin:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-admin.animated #freepik--background-complete--inject-101 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-admin.animated #freepik--Shadow--inject-101 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-admin.animated #freepik--Icons--inject-101 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-admin.animated #freepik--Character--inject-101 {
+  animation: 6s Infinite linear floating;
+  animation-delay: 0s;
+}
+svg#freepik_stories-admin.animated #freepik--Desk--inject-101 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+/* IT Assets 4  */
+svg#freepik_stories-time-management:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-time-management.animated
+  #freepik--background-complete--inject-4 {
+  animation: 6s Infinite linear shake;
+  animation-delay: 0s;
+}
+svg#freepik_stories-time-management.animated #freepik--Stopwatch--inject-4 {
+  animation: 6s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+svg#freepik_stories-time-management.animated #freepik--Calendar--inject-4 {
+  animation: 1.5s Infinite linear wind;
+  animation-delay: 0s;
+}
+svg#freepik_stories-time-management.animated #freepik--Character--inject-4 {
+  animation: 6s Infinite linear wind;
+  animation-delay: 0s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}

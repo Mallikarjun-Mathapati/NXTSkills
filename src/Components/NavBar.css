@@ -215,7 +215,7 @@
 .footer-main-grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr;
-  gap: 5rem;
+  gap: 4rem;
   align-items: baseline;
   margin-bottom: 3rem;
 }

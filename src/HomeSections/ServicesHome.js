@@ -33,7 +33,7 @@ const ServicesHome = () => {
             </div>
             <div className="services-home-section-grid-2 services-home-section-same">
               <div className="services-home-section-same-sub">
-                <Link to="/">
+                <Link to="/Services/Cyber-Security">
                   <h3>Cyber security</h3>
                   <p className="text-len">
                     The significance of cybersecurity is best understood by
@@ -55,7 +55,7 @@ const ServicesHome = () => {
             </div>
             <div className="services-home-section-grid-4 services-home-section-same">
               <div className="services-home-section-same-sub">
-                <Link to="/">
+                <Link to="/Services/Endpoint-and-Synchronized-Security-solutions">
                   <h3>Endpoint and Synchronized Security solutions</h3>
                   <p>
                     Endpoint security shields individual devices within a
@@ -75,7 +75,7 @@ const ServicesHome = () => {
             </div>
             <div className="services-home-section-grid-6 services-home-section-same">
               <div className="services-home-section-same-sub">
-                <Link to="/">
+                <Link to="/Services/IT-Managed-Services">
                   <h3>IT Managed Services</h3>
                   <p>
                     In the rapidly evolving digital landscape, IT has
@@ -100,7 +100,7 @@ const ServicesHome = () => {
             </div>
             <div className="services-home-section-grid-8 services-home-section-same">
               <div className="services-home-section-same-sub">
-                <Link to="/">
+                <Link to="/Services/IT-Manpower">
                   <h3>IT Manpower</h3>
                   <p>
                     " As the digital ecosystem continues to advance, the
@@ -119,7 +119,7 @@ const ServicesHome = () => {
             </div>
             <div className="services-home-section-grid-10 services-home-section-same">
               <div className="services-home-section-same-sub">
-                <Link to="/">
+                <Link to="/Services/IT-Physical-Audit">
                   <h3>IT Physical Audit</h3>
                   <p>
                     Amidst the ever-evolving digital landscape, the importance
@@ -141,7 +141,7 @@ const ServicesHome = () => {
             </div>
             <div className="services-home-section-grid-12 services-home-section-same">
               <div className="services-home-section-same-sub">
-                <Link to="/">
+                <Link to="/Services/IT-Asset-Management">
                   <h3> IT Asset Management</h3>
                   <p>
                     The digital ecosystem depends on various assets, from

@@ -85,6 +85,7 @@ const Footer = () => {
                 <h4>OTHER LINKS</h4>
                 <Link to="/"> Social Work</Link>
                 <Link to="/"> Privacy Policy</Link>
+                <Link to="/"> Teams And Condition </Link>
                 <Link to="/"> Case Studies</Link>
                 <Link to="/"> Project’s</Link>
               </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import BannerIllu from "../Images/HomeSection/Banner/Banner-illu.png";
+import HeroButton from "../Components/Buttons/HeroButton";
 
 const Banner = () => {
   return (
@@ -15,9 +15,13 @@ const Banner = () => {
                 success. Leveraging our experience and knowledge, we offer a
                 wide array of services tailored to meet your unique IT needs.
               </p>
-              <Link>
-                <button>Contact Us</button>
-              </Link>
+              <div className="banner-button">
+                <HeroButton
+                  GoTo="Contact Us"
+                  Links="/Contact-Us"
+                  buttonClassName="banner-button-sub"
+                />
+              </div>
             </div>
             <div className="banner-grid-svg flex">
               <img src={BannerIllu} alt="Banner" />

@@ -62,7 +62,7 @@ const OurClient = () => {
                   <p>
                     <span>Security Guardians:</span> Cybersecurity is at the
                     core of our services. We fortify your digital fortress to
-                    protect your assets.
+                    protect your assets, from the External threats.
                   </p>
                 </div>
                 <div
@@ -84,7 +84,7 @@ const OurClient = () => {
                   <p>
                     <span>Startups to SMBs :</span> Whether you're a fledgling
                     startup or a well-established SMB, we're here to level up
-                    your IT Business.
+                    your IT Business, To produce efficient output.
                   </p>
                 </div>
                 <div

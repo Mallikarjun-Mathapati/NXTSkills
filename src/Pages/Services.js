@@ -1,5 +1,6 @@
 import React from "react";
 import SubPageHead from "../Components/SubPageHead";
+import ServiceMain from "../ServicePage/ServiceMain";
 
 const Services = () => {
   return (
@@ -11,6 +12,9 @@ const Services = () => {
 grow & compete with the big guys."
           HeaderClass="service-header"
         />
+      </div>
+      <div className="services-main-page">
+        <ServiceMain />
       </div>
     </>
   );
