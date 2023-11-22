@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NXTSkills/static/css/main.9408f84f.css",
-    "main.js": "/NXTSkills/static/js/main.e715f575.js",
+    "main.css": "/NXTSkills/static/css/main.c4366026.css",
+    "main.js": "/NXTSkills/static/js/main.9a1584b9.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/Aboutusmain.gif": "/NXTSkills/static/media/Aboutusmain.0e319606c0a501bfad4c.gif",
     "static/media/Slide-1.png": "/NXTSkills/static/media/Slide-1.14405de248dc8dfc055c.png",
@@ -32,12 +32,13 @@
     "static/media/lucide_facebook.svg": "/NXTSkills/static/media/lucide_facebook.52b7808764d5776425c347294042a7e6.svg",
     "static/media/HEX-color.svg": "/NXTSkills/static/media/HEX-color.90f2b649034dece27fb1.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
-    "main.9408f84f.css.map": "/NXTSkills/static/css/main.9408f84f.css.map",
-    "main.e715f575.js.map": "/NXTSkills/static/js/main.e715f575.js.map",
+    "static/media/Single Service hero.svg": "/NXTSkills/static/media/Single Service hero.09c2f13070840709cb03.svg",
+    "main.c4366026.css.map": "/NXTSkills/static/css/main.c4366026.css.map",
+    "main.9a1584b9.js.map": "/NXTSkills/static/js/main.9a1584b9.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9408f84f.css",
-    "static/js/main.e715f575.js"
+    "static/css/main.c4366026.css",
+    "static/js/main.9a1584b9.js"
   ]
 }
