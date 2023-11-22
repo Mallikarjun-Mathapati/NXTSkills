@@ -60,11 +60,10 @@ grow & compete with the big guys."
               <div className="about-us-vision-mision-grid-1-sub flex">
                 <h3>OUR STORY</h3>
                 <p>
-                  We envision a world where every company, from startups to
-                  SMBs, has access to cutting-edge IT solutions and top-tier
-                  security measures. Our commitment lies in revolutionizing the
-                  IT landscape, empowering organizations to thrive in an
-                  increasingly digital world.
+                  At NXT Skills, our story is one of relentless dedication to
+                  empowering businesses through unparalleled IT solutions. As a
+                  dynamic force in the industry, we specialize in delivering
+                  comprehensive IT services and resolutions.
                 </p>
               </div>
             </div>

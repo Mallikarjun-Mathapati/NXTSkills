@@ -621,3 +621,40 @@
   background-color: #0056b3;
 }
 /* end  */
+
+/* Process  */
+.process-lear {
+  width: 10.6875rem;
+  height: 10.6875rem;
+  background: radial-gradient(
+    81.96% 81.96% at 26.18% 17.78%,
+    #fff 0%,
+    #f8f9fb 31%,
+    #e4e9f1 78%,
+    #d8dfeb 100%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50%;
+}
+.process-lear-1 {
+  width: 9.4375rem;
+  height: 9.4375rem;
+  background: #faff0c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50%;
+}
+.process-lear-2 {
+  width: 8.1875rem;
+  height: 8.1875rem;
+  flex-shrink: 0;
+  background: linear-gradient(
+    331deg,
+    #fff 14.7%,
+    #fafbfb 36.91%,
+    #eceef1 62.18%,
+    #d5d8e0 88.98%,
+    #d3d6de 91.27%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50%;
+}
