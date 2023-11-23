@@ -7,6 +7,18 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(105, 105, 105, 0.39);
+}
+::-webkit-scrollbar-thumb {
+  width: 6px;
+  background: linear-gradient(131deg, #a83b92 1.86%, #7f3da4 81.13%);
+  border-radius: 20px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -29,6 +41,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 h3 {
   color: #253559;
@@ -52,10 +65,14 @@ a {
   .container {
     padding: 0 2.5rem;
   }
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 @media (max-width: 425px) {
   h2 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+    text-align: center;
   }
   p {
     font-size: 0.875rem;

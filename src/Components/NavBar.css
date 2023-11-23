@@ -27,7 +27,7 @@
   color: white;
 }
 .nav-social-icon-hide {
-  display: none;
+  /* display: none; */
 }
 .top-nav-flex-2 {
   display: flex;
@@ -78,8 +78,22 @@
   width: 100%;
   padding: 0.5rem 6.25rem;
   background: transparent;
-  position: relative;
+  position: fixed;
   z-index: 99999999999;
+}
+.navbar-active {
+  background-color: black;
+  top: 0;
+  transform: translateY(-85px);
+  animation: scrollNav 1s forwards ease;
+}
+@keyframes scrollNav {
+  0% {
+    transform: translateY(-85px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 .navbar-grid {
   display: grid;
@@ -106,7 +120,11 @@
 }
 @media (max-width: 1024px) {
   .navbar {
+    position: sticky;
     padding: 0.5rem 2.25rem;
+  }
+  .navbar-active {
+    background: #000;
   }
   .navbar-grid-logo img {
     width: 45%;
@@ -468,17 +486,17 @@
   }
   .about-us-heading p {
     width: 100%;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 768px) {
   .about-us-heading {
-    height: 18rem;
+    height: 22rem;
   }
 }
 @media (max-width: 425px) {
   .about-us-heading {
-    height: 15rem;
+    height: 22rem;
     text-align: center;
   }
 }
@@ -563,19 +581,8 @@
 }
 
 /* testimonial  */
-.testimonial {
-  width: 100%;
-}
-.testimonial-main-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 1rem;
-}
-.testimonial-grid-1 p {
-  width: 19rem;
-  font-weight: 500;
-}
-.testimonials-container {
+
+/* .testimonials-container {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
@@ -583,44 +590,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden;
-}
-
-/* start  */
-.testimonial1 {
-  margin-bottom: 20px;
-  opacity: 0;
-  transform: translateX(100%);
-  transition: opacity 1s, transform 1s;
-}
-.testimonial1 p {
-  color: red;
-}
-
-.testimonial.active {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.buttons-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.prev-button,
-.next-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.prev-button:hover,
-.next-button:hover {
-  background-color: #0056b3;
-}
-/* end  */
+} */
 
 /* Process  */
 .process-lear {

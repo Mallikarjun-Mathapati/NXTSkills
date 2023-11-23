@@ -12,7 +12,7 @@ import ImagesScroll from "../Images/OMS/BRANDS.png";
 import NxtSkillsPower from "../HomeSections/NxtSkillsPower";
 import OurClient from "../HomeSections/OurClient";
 import HeroSection from "../Components/HeroSection.js/HeroSection";
-// import Testimonial from "../Components/Testimonial";
+import Testimonial from "../Components/Testimonials/Testimonial";
 const Home = () => {
   return (
     <>
@@ -26,7 +26,7 @@ const Home = () => {
       <Progress />
       <Windows />
       <Banner />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <ContactForm />
     </>
   );

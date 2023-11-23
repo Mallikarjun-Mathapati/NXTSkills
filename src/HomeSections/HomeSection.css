@@ -98,7 +98,7 @@
   text-transform: capitalize;
   padding: 2.5rem 0;
 }
-.banner-grid-content .banner-button {
+.banner-grid-content.banner-button {
   display: flex;
 }
 
@@ -142,6 +142,7 @@
   }
   .banner-grid-content h4 {
     font-size: 1.8rem;
+    line-height: 2.5rem;
   }
   .banner-grid-content p {
     font-size: 0.9rem;
@@ -317,7 +318,8 @@
     padding: 1rem;
   }
   .contact-from-grid-details-heading h2 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+    text-align: center;
   }
   .contact-from-grid-details-heading p {
     font-size: 0.9rem;

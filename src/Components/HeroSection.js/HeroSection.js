@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import { Autoplay, Mousewheel, Pagination } from "swiper/modules";
 import WhoDo from "./HeroSection/slide-2-side.png";
 import HeroButton from "../Buttons/HeroButton";
+import slid3side from "../HeroSection.js/HeroSection/slide-3-side.png";
 
 const HeroSection = () => {
   return (
@@ -70,9 +71,47 @@ const HeroSection = () => {
               {/* </div> */}
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide className="swiper-slide-hero-3 swiper-slide-hero-same">
-            Slide 3
-          </SwiperSlide> */}
+          <SwiperSlide className="swiper-slide-hero-3 swiper-slide-hero-same">
+            <div className="container">
+              <div className="swiper-slide-hero-3-flex">
+                <div className="swiper-slide-hero-3-flex-detail">
+                  <h5>Projects</h5>
+                  <h4>
+                    Unlocking Efficiency through Streamlined Automation
+                    Solutions
+                  </h4>
+                  <div className="swiper-slide-hero-3-flex-project-detail">
+                    <div className="swiper-slide-hero-3-flex-project-detail-1">
+                      <h5>Werehouse Projects</h5>
+                      <p>
+                        Planning and implementation of wired/non wired
+                        Infrastructure setups, complete network , access
+                        controller and surveillance management.
+                      </p>
+                    </div>
+                    <div className="swiper-slide-hero-3-flex-project-detail-1 swiper-slide-hero-3-flex-project-detail-1-hide">
+                      <h5>Call Center Project</h5>
+                      <p>
+                        Analyze and implement relevant Infrastructure solutions
+                        like cloud telephony, on premise voice solutions,
+                        PRI/SIP, CRM integration, Internet etc....
+                      </p>
+                    </div>
+                    <div className="swiper-slide-hero-3-button">
+                      <HeroButton
+                        Links="/"
+                        GoTo="Learn More"
+                        buttonClassName="swiper-slide-hero-3-sub-button"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="swiper-slide-hero-3-flex-img">
+                  <img src={slid3side} alt="NXTskills-projects" />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </>

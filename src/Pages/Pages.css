@@ -109,6 +109,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
+  margin-top: 5rem;
 }
 .about-us-vision-mision-grid-1 {
   padding: 2rem 0;
@@ -250,6 +251,9 @@
   line-height: 2.1875rem;
   text-transform: capitalize;
   text-align: center;
+}
+.about-us-testimonials {
+  margin-top: 10rem;
 }
 
 /* CONTACT US  */

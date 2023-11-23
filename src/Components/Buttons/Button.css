@@ -112,3 +112,24 @@
 .banner-button-sub:hover:after {
   background-color: #407bff;
 }
+/* slide-3 button  */
+.swiper-slide-hero-3-sub-button {
+  margin-top: 0rem;
+  color: #f16c51;
+  font: 16px;
+  padding: 8px 30px;
+}
+.swiper-slide-hero-3-sub-button:hover {
+  color: #ffffff;
+}
+
+.swiper-slide-hero-3-sub-button:hover:before {
+  background-color: #f16c51;
+}
+
+.swiper-slide-hero-3-sub-button :hover:after {
+  background-color: #f16c51;
+}
+.swiper-slide-hero-3-sub-button:hover:after {
+  background-color: #f16c51;
+}

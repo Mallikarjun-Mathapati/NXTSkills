@@ -5,6 +5,7 @@ import MainProgress from "../Components/MainProgress";
 import ImageScroll from "../Components/ImageScroll";
 import ImagesScroll1 from "../Images/OMS/Brands 2.png";
 import ImagesScroll2 from "../Images/OMS/BRANDS.png";
+import Testimonial from "../Components/Testimonials/Testimonial";
 
 const AboutUs = () => {
   return (
@@ -91,6 +92,9 @@ grow & compete with the big guys."
             </div>
           </div>
         </div>
+      </div>
+      <div className="about-us-testimonials">
+        <Testimonial />
       </div>
       <div className="about-image-scroll-container">
         <div className="about-image-scroll">
