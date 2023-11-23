@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/NXTSkills/static/css/main.474ec700.css",
-    "main.js": "/NXTSkills/static/js/main.5088c072.js",
+    "main.css": "/NXTSkills/static/css/main.db1b59b1.css",
+    "main.js": "/NXTSkills/static/js/main.7bf14d60.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/Slide-1.png": "/NXTSkills/static/media/Slide-1.14405de248dc8dfc055c.png",
     "static/media/BRANDS.png": "/NXTSkills/static/media/BRANDS.e315bc52089347360191.png",
     "static/media/Brands 2.png": "/NXTSkills/static/media/Brands 2.40fc9cc79917089305f2.png",
+    "static/media/slide-3.png": "/NXTSkills/static/media/slide-3.493d521bbab7da08d1e9.png",
     "static/media/BLOGWINDOW.png": "/NXTSkills/static/media/BLOGWINDOW.e5cf5a77930e44d21970.png",
     "static/media/slide-2-side.png": "/NXTSkills/static/media/slide-2-side.dac73fa06b3efe86f458.png",
     "static/media/person.png": "/NXTSkills/static/media/person.4b5baa19210d1ff26915.png",
     "static/media/Services.png": "/NXTSkills/static/media/Services.33bbe8cc85c732853c6f.png",
+    "static/media/slide-3-side.png": "/NXTSkills/static/media/slide-3-side.e19b4bb3c1a1aaeadb91.png",
     "static/media/project.png": "/NXTSkills/static/media/project.1f6c00b894fe9d2464fe.png",
     "static/media/Banner-illu.png": "/NXTSkills/static/media/Banner-illu.17df0d3dca9c69962aa2.png",
     "static/media/About.png": "/NXTSkills/static/media/About.d2f1bb20f911f5bce81c.png",
@@ -26,18 +28,20 @@
     "static/media/email.svg": "/NXTSkills/static/media/email.7fa4d8f2ed37b8d78da96137220e7746.svg",
     "static/media/ion_location-sharp.svg": "/NXTSkills/static/media/ion_location-sharp.1b5b340b0b906c542c7dc6683b6ded89.svg",
     "index.html": "/NXTSkills/index.html",
+    "static/media/Arrow left.svg": "/NXTSkills/static/media/Arrow left.dbe138fbce76e90e86611a30ab56baa3.svg",
+    "static/media/Arrow right.svg": "/NXTSkills/static/media/Arrow right.c6bb5009d0cb350cd681208586466a0c.svg",
     "static/media/HEX-black-white.svg": "/NXTSkills/static/media/HEX-black-white.5576809c14d03e1eaaee.svg",
     "static/media/Face.svg": "/NXTSkills/static/media/Face.bb2934ca23c1cff31dd6a503e0c7901a.svg",
     "static/media/lucide_facebook.svg": "/NXTSkills/static/media/lucide_facebook.52b7808764d5776425c347294042a7e6.svg",
     "static/media/HEX-color.svg": "/NXTSkills/static/media/HEX-color.90f2b649034dece27fb1.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
     "static/media/Single Service hero.svg": "/NXTSkills/static/media/Single Service hero.09c2f13070840709cb03.svg",
-    "main.474ec700.css.map": "/NXTSkills/static/css/main.474ec700.css.map",
-    "main.5088c072.js.map": "/NXTSkills/static/js/main.5088c072.js.map",
+    "main.db1b59b1.css.map": "/NXTSkills/static/css/main.db1b59b1.css.map",
+    "main.7bf14d60.js.map": "/NXTSkills/static/js/main.7bf14d60.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.474ec700.css",
-    "static/js/main.5088c072.js"
+    "static/css/main.db1b59b1.css",
+    "static/js/main.7bf14d60.js"
   ]
 }
