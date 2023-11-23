@@ -1,13 +1,9 @@
 import React from "react";
-import ProcessSection from "../Components/ProcessSection";
-// import TextScroll from "../Components/TextScroll";
-
+import SubPageHead from "../Components/SubPageHead";
 const Blog = () => {
   return (
     <>
-      {/* <img src={require("../Images/HomeSection/Service/1.svg")} alt="" /> */}
-      {/* <TextScroll TextScrollText="text-scroll-text" /> */}
-      <ProcessSection />
+      <SubPageHead Header="BLOG" SubHeader="Coming Soon........." />
     </>
   );
 };

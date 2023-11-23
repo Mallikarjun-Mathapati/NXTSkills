@@ -1,5 +1,6 @@
 import React from "react";
 import MainProgress from "../Components/MainProgress";
+import Process from "../Images/HomeSection/Progress/process.svg";
 
 const Progress = () => {
   return (
@@ -16,7 +17,12 @@ const Progress = () => {
           </div>
           <div className="progress-main-grid">
             <MainProgress ProgressMain2="progress-grid-1" />
-            <div className="progress-grid-2"></div>
+            <div className="progress-grid-2">
+              <div className="progress-process-heading">
+                <h3>OUR WORK PROCESS</h3>
+              </div>
+              <img src={Process} alt="NXTSkills Process" />
+            </div>
           </div>
         </div>
       </div>

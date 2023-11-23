@@ -354,13 +354,20 @@
   margin: 4rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 3rem;
 }
 .progress-grid-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 15rem);
   gap: 1.5rem;
+}
+.progress-grid-2 img {
+  width: 100%;
+}
+.progress-process-heading {
+  text-align: center;
+  padding: 4rem 0;
 }
 .progress-same {
   position: relative;

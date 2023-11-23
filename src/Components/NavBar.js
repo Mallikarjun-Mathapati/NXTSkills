@@ -8,7 +8,7 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
   const NavActive = () => {
     const Scroll = window.scrollY;
-    if (Scroll > 150) {
+    if (Scroll > 100) {
       setNav(true);
     } else {
       setNav(false);
