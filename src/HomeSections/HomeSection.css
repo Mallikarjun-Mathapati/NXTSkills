@@ -20,6 +20,7 @@
   width: 4.75rem;
   transition: all 0.5s;
   height: auto;
+  cursor: pointer;
 }
 .why-nxt-grid-1 img:hover {
   transform: scale(1.1);
@@ -1277,6 +1278,7 @@
   background-position: center;
   background-repeat: no-repeat;
   transition: all 0.5s;
+  cursor: pointer;
 }
 .our-client-grid-same p {
   padding: 0 1rem;

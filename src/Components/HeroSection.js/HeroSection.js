@@ -17,12 +17,14 @@ const HeroSection = () => {
           slidesPerView={1}
           spaceBetween={1}
           centeredSlides={true}
-          //   autoplay={{
-          //     delay: 2500,
-          //     disableOnInteraction: false,
-          //   }}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
           mousewheel={{
             releaseOnEdges: true,
+            forceToAxis: true,
+            sensitivity: 1,
           }}
           pagination={{
             clickable: true,
@@ -113,6 +115,30 @@ const HeroSection = () => {
             </div>
           </SwiperSlide>
         </Swiper>
+      </div>
+      {/* Responsive hero  */}
+      <div className="responsive-hero-section">
+        <div className="swiper-slide-hero-1 flex">
+          <div className="container">
+            <div className="swiper-slide-hero-1-sub flex">
+              <h5>Nxt skills</h5>
+              <h2>Empowering Businesses with Cutting-Edge IT Solutions</h2>
+              <p>
+                Your trusted partner in providing end-to-end IT solutions that
+                empower your business to thrive in the digital age. With a
+                commitment to innovation, a dedication to client success, and a
+                track record inspired by industry giants
+              </p>
+              <div className="button-hero">
+                <HeroButton
+                  Links="/About-us"
+                  GoTo="Learn More"
+                  buttonClassName="swiper-slide-hero-1-sub-button"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

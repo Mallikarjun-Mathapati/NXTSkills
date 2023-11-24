@@ -3,8 +3,9 @@ import AboutUsSvg from "../SVGs/AboutUsSvg";
 import SubPageHead from "../Components/SubPageHead";
 import MainProgress from "../Components/MainProgress";
 import ImageScroll from "../Components/ImageScroll";
-import ImagesScroll1 from "../Images/OMS/Brands 2.png";
+// import ImagesScroll1 from "../Images/OMS/Brands 2.png";
 import ImagesScroll2 from "../Images/OMS/BRANDS.png";
+import ImagesScroll3 from "../Images/OMS/SUB BARND.png";
 import Testimonial from "../Components/Testimonials/Testimonial";
 
 const AboutUs = () => {
@@ -106,12 +107,18 @@ grow & compete with the big guys."
         <div className="about-image-scroll-heading">
           <h4>Brands that Trust our IT Solutions And Technology Partners </h4>
         </div>
-        <div className="about-image-scroll">
+        <div className="about-image-scroll about-image-scroll-2 ">
           <ImageScroll
-            ImageScrollImage={ImagesScroll1}
-            ImageScrollImgClass="about-image-scroll"
+            ImageScrollImage={ImagesScroll3}
+            ImageScrollImgClass="about-image-scroll-2"
           />
         </div>
+        {/* <div className="about-image-scroll">
+          <ImageScroll
+            ImageScrollImage={ImagesScroll3}
+            ImageScrollImgClass2="about-image-scroll-1"
+          />
+        </div> */}
       </div>
     </>
   );

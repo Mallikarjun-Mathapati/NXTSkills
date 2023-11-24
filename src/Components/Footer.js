@@ -39,7 +39,9 @@ const Footer = () => {
         <div className="container">
           <div className="footer-main-grid">
             <div className="footer-main-grid-1">
-              <img src={Logo} alt="Logo" />
+              <Link to="/">
+                <img src={Logo} alt="Logo" />
+              </Link>
               <p>
                 Nxtskills is on a mission to set the gold standard for IT
                 excellence and security across industries. We're dedicated to

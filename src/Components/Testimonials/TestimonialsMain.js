@@ -6,14 +6,6 @@ import ArrowLeft from "./Img/Arrow left.svg";
 const TestimomialsMain = () => {
   const testimonialsData = [
     {
-      id: 1,
-      name: "James",
-      company: "Hella Infra",
-      img: require("../Testimonials/Img/testimonials img.png"),
-      comment:
-        "Exceptional service during COVID times! NxtSkills delivered promptly, defying challenges others faced. Ensured on-time delivery as requested, maintaining impeccable quality. Impressed by their efficiency and reliability.        ",
-    },
-    {
       id: 2,
       name: "Harshith",
       company: "Swiggy",
@@ -21,6 +13,15 @@ const TestimomialsMain = () => {
       comment:
         "Grateful to the NxtSkills team for flawlessly managing Swiggy's pan-Karnataka passive networking for the past few years. The services and timing have been impeccable. Their swift execution and focus on service without disrupting the process have been instrumental in maintaining a seamless flow. Thank you for your efficient and reliable support.        ",
     },
+    {
+      id: 1,
+      name: "James",
+      company: "Hella Infra",
+      img: require("../Testimonials/Img/testimonials img.png"),
+      comment:
+        "Exceptional service during COVID times! NxtSkills delivered promptly, defying challenges others faced. Ensured on-time delivery as requested, maintaining impeccable quality. Impressed by their efficiency and reliability.        ",
+    },
+
     {
       id: 3,
       name: "Jay",

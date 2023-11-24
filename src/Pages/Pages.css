@@ -222,11 +222,14 @@
   }
 }
 .about-image-scroll-container {
-  margin: 10rem 0;
+  margin: 5rem 0;
 }
 .about-image-scroll img,
 .about-image-scroll-1 img {
   width: 100%;
+}
+.about-image-scroll-2 {
+  margin-top: 2rem;
 }
 .about-image-scroll-1 {
   display: flex;
@@ -242,7 +245,7 @@
   }
 }
 .about-image-scroll-heading {
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 .about-image-scroll-heading h4 {
   color: #000;
@@ -254,6 +257,21 @@
 }
 .about-us-testimonials {
   margin-top: 10rem;
+}
+@media (max-width: 1024px) {
+  .about-image-scroll-heading h4 {
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .about-image-scroll-heading h4 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .about-image-scroll-heading h4 {
+    font-size: 1.2rem;
+  }
 }
 
 /* CONTACT US  */

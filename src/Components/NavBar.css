@@ -25,6 +25,10 @@
 }
 .nav-social-icon a {
   color: white;
+  transition: all 0.5s;
+}
+.nav-social-icon a:hover {
+  color: #ea2e6e;
 }
 .nav-social-icon-hide {
   /* display: none; */
@@ -51,6 +55,10 @@
   background: #1154e2;
   color: white;
   font-weight: 500;
+  transition: all 0.3s;
+}
+.nav-contact-button button:hover {
+  background: #e82f6f;
 }
 @media (max-width: 1024px) {
   .top-nav {
@@ -82,11 +90,17 @@
   z-index: 99999999999;
 }
 .navbar-active {
-  background-color: black;
+  /* background-color: black; */
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   top: 0;
   transform: translateY(-85px);
   animation: scrollNav 1s forwards ease;
 }
+.navbar-active .navbar-grid-link-s a {
+  color: black;
+}
+
 @keyframes scrollNav {
   0% {
     transform: translateY(-85px);
@@ -94,6 +108,9 @@
   100% {
     transform: translateY(0px);
   }
+}
+.navbar-active .navbar-grid-logo img {
+  width: 30%;
 }
 .navbar-grid {
   display: grid;
@@ -124,10 +141,14 @@
     padding: 0.5rem 2.25rem;
   }
   .navbar-active {
-    background: #000;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
-  .navbar-grid-logo img {
-    width: 45%;
+  .navbar-active .navbar-grid-logo img {
+    width: 50%;
+  }
+  .navbar-active .nav-social-icon a {
+    color: #e82f6f;
   }
 }
 @media (max-width: 768px) {
