@@ -71,22 +71,24 @@
 /* BANNER  */
 .banner {
   width: 100%;
-  margin: 5rem 0;
+  margin: 10rem 0;
+  background: #407bff;
+}
+.banner-flex {
 }
 .banner-grid {
-  width: 100%;
+  max-width: 72rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 3.7rem 6.2rem;
   border-radius: 0rem 12.5rem 0rem 0rem;
-  background: #407bff;
 }
 
 .banner-grid-content {
 }
 .banner-grid-content h4 {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
   line-height: 3.1875rem;
   text-transform: capitalize;
@@ -94,10 +96,10 @@
 .banner-grid-content p {
   color: #fff;
   font-family: "Poppins";
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 500;
   text-transform: capitalize;
-  padding: 2.5rem 0;
+  padding: 2rem 0;
 }
 .banner-grid-content.banner-button {
   display: flex;

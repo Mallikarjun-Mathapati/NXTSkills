@@ -64,7 +64,10 @@ const TestimomialsMain = () => {
                   : ""
               }`}
             >
-              <p className="testimonial-comment">"{testimonial.comment}"</p>
+              <p className="testimonial-comment">
+                <span>"</span>
+                {testimonial.comment} <span>"</span>{" "}
+              </p>
               <div className="testimonial-comment-name-img">
                 <img src={testimonial.img} alt={testimonial.name} />
                 <div className="testimonial-comment-name">

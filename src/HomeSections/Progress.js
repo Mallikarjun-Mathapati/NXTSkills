@@ -10,9 +10,12 @@ const Progress = () => {
           <div className="progress-heading">
             <h2>We Have Been Around for a While</h2>
             <p>
-              <span>Process:</span> veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              {/* <span>Process:</span>  */}
+              Elevate your organization with NXT Skills IT solutions, a
+              transformative approach to bolstering your team's capabilities.
+              Our cutting-edge technology empowers seamless integration,
+              fostering efficiency, innovation, and sustained growth in today's
+              dynamic digital landscape.
             </p>
           </div>
           <div className="progress-main-grid">

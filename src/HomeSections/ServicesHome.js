@@ -141,7 +141,7 @@ const ServicesHome = () => {
             </div>
             <div className="services-home-section-grid-12 services-home-section-same">
               <div className="services-home-section-same-sub">
-                <Link to="/Services/IT-  Asset-Management">
+                <Link to="/Services/IT-Asset-Management">
                   <h3> IT Asset Management</h3>
                   <p>
                     The digital ecosystem depends on various assets, from

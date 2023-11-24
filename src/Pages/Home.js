@@ -25,8 +25,8 @@ const Home = () => {
       <OurClient />
       <Progress />
       <Windows />
-      <Banner />
       <Testimonial />
+      <Banner />
       <ContactForm />
     </>
   );
