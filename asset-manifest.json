@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NXTSkills/static/css/main.ccb4442c.css",
-    "main.js": "/NXTSkills/static/js/main.44813b2a.js",
+    "main.css": "/NXTSkills/static/css/main.ed0c74cf.css",
+    "main.js": "/NXTSkills/static/js/main.f7a63ae1.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/Slide-1.png": "/NXTSkills/static/media/Slide-1.14405de248dc8dfc055c.png",
     "static/media/process.svg": "/NXTSkills/static/media/process.fdbdfea5f7f2e3a9dd4a99256d5ecba0.svg",
@@ -37,12 +37,12 @@
     "static/media/HEX-color.svg": "/NXTSkills/static/media/HEX-color.90f2b649034dece27fb1.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
     "static/media/Single Service hero.svg": "/NXTSkills/static/media/Single Service hero.09c2f13070840709cb03.svg",
-    "main.ccb4442c.css.map": "/NXTSkills/static/css/main.ccb4442c.css.map",
-    "main.44813b2a.js.map": "/NXTSkills/static/js/main.44813b2a.js.map",
+    "main.ed0c74cf.css.map": "/NXTSkills/static/css/main.ed0c74cf.css.map",
+    "main.f7a63ae1.js.map": "/NXTSkills/static/js/main.f7a63ae1.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccb4442c.css",
-    "static/js/main.44813b2a.js"
+    "static/css/main.ed0c74cf.css",
+    "static/js/main.f7a63ae1.js"
   ]
 }
