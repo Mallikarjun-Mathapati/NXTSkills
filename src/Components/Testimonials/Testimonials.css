@@ -109,8 +109,6 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-.testimonial-navigation-buttons button:hover {
-}
 @media (max-width: 930px) {
   .testimonial-main-grid {
     grid-template-columns: 1fr;
@@ -147,8 +145,6 @@
   .testimonial-main-grid {
     grid-template-columns: 1fr;
     gap: 3rem;
-  }
-  .testimonial-comment-name-2 {
   }
   .testimonial-comment {
     font-size: 0.9rem;

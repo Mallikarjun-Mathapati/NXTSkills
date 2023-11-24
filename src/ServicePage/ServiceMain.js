@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import ServiceData from "./ServicesData";
+import serviceProcess from "../Images/HomeSection/Progress/process.svg";
 import "./Service.css";
 
 const ServiceMain = () => {
@@ -15,6 +16,9 @@ const ServiceMain = () => {
                 We supply clients across the entire globe with improved network
                 connections.
               </p>
+            </div>
+            <div className="service-work-process flex">
+              <img src={serviceProcess} alt="" />
             </div>
           </div>
           <div className="service-process-main">

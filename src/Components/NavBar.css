@@ -30,9 +30,6 @@
 .nav-social-icon a:hover {
   color: #ea2e6e;
 }
-.nav-social-icon-hide {
-  /* display: none; */
-}
 .top-nav-flex-2 {
   display: flex;
   align-items: center;
@@ -258,8 +255,7 @@
   align-items: baseline;
   margin-bottom: 3rem;
 }
-.footer-main-grid-1 {
-}
+
 .footer-main-grid-1 p {
   color: #3d3d3d;
   font-size: 0.9375rem;
