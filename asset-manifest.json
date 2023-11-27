@@ -1,19 +1,31 @@
 {
   "files": {
-    "main.css": "/NXTSkills/static/css/main.c21b8923.css",
-    "main.js": "/NXTSkills/static/js/main.1e9f0f67.js",
+    "main.css": "/NXTSkills/static/css/main.8e648d5a.css",
+    "main.js": "/NXTSkills/static/js/main.91867211.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/process.svg": "/NXTSkills/static/media/process.fdbdfea5f7f2e3a9dd4a99256d5ecba0.svg",
     "static/media/BRANDS.png": "/NXTSkills/static/media/BRANDS.e315bc52089347360191.png",
     "static/media/slide-1-1.png": "/NXTSkills/static/media/slide-1-1.57fd7e659ee465b3312e.png",
     "static/media/Testimonial-background.png": "/NXTSkills/static/media/Testimonial-background.e3e3024ca3d6af7635f5.png",
+    "static/media/4.jpeg": "/NXTSkills/static/media/4.74d24dfc7a2ff810cc1f.jpeg",
     "static/media/slide-3.png": "/NXTSkills/static/media/slide-3.493d521bbab7da08d1e9.png",
     "static/media/SUB BARND.png": "/NXTSkills/static/media/SUB BARND.d413cb9c059034a20ab4.png",
+    "static/media/6.jpeg": "/NXTSkills/static/media/6.9595e4cad1ef78dcb7bc.jpeg",
     "static/media/BLOGWINDOW.png": "/NXTSkills/static/media/BLOGWINDOW.e5cf5a77930e44d21970.png",
+    "static/media/7.jpeg": "/NXTSkills/static/media/7.a1a2146a57c3491d8fb3.jpeg",
+    "static/media/1.jpeg": "/NXTSkills/static/media/1.9bd05aa56fa6f27761e3.jpeg",
+    "static/media/9.jpeg": "/NXTSkills/static/media/9.37e8f6a842bc1f873843.jpeg",
+    "static/media/3.jpeg": "/NXTSkills/static/media/3.11f6c6cc922867031441.jpeg",
+    "static/media/2.jpeg": "/NXTSkills/static/media/2.3a6cb6e0189fd027e615.jpeg",
     "static/media/slide-2-side.png": "/NXTSkills/static/media/slide-2-side.dac73fa06b3efe86f458.png",
+    "static/media/12.jpeg": "/NXTSkills/static/media/12.d0ba6c6c1a05b26c86a0.jpeg",
+    "static/media/5.jpeg": "/NXTSkills/static/media/5.fff72cb95b664dd87bf9.jpeg",
     "static/media/person.png": "/NXTSkills/static/media/person.4b5baa19210d1ff26915.png",
     "static/media/Services.png": "/NXTSkills/static/media/Services.33bbe8cc85c732853c6f.png",
     "static/media/slide-3-side.png": "/NXTSkills/static/media/slide-3-side.e19b4bb3c1a1aaeadb91.png",
+    "static/media/11.jpeg": "/NXTSkills/static/media/11.31b8269eed49d7817086.jpeg",
+    "static/media/10.jpeg": "/NXTSkills/static/media/10.7c09d9587d9593484e1f.jpeg",
+    "static/media/8.jpeg": "/NXTSkills/static/media/8.38cedaadb4463a11482e.jpeg",
     "static/media/project.png": "/NXTSkills/static/media/project.1f6c00b894fe9d2464fe.png",
     "static/media/Banner-illu.png": "/NXTSkills/static/media/Banner-illu.17df0d3dca9c69962aa2.png",
     "static/media/About.png": "/NXTSkills/static/media/About.d2f1bb20f911f5bce81c.png",
@@ -40,12 +52,12 @@
     "static/media/HEX-color.svg": "/NXTSkills/static/media/HEX-color.90f2b649034dece27fb1.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
     "static/media/Single Service hero.svg": "/NXTSkills/static/media/Single Service hero.09c2f13070840709cb03.svg",
-    "main.c21b8923.css.map": "/NXTSkills/static/css/main.c21b8923.css.map",
-    "main.1e9f0f67.js.map": "/NXTSkills/static/js/main.1e9f0f67.js.map",
+    "main.8e648d5a.css.map": "/NXTSkills/static/css/main.8e648d5a.css.map",
+    "main.91867211.js.map": "/NXTSkills/static/js/main.91867211.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c21b8923.css",
-    "static/js/main.1e9f0f67.js"
+    "static/css/main.8e648d5a.css",
+    "static/js/main.91867211.js"
   ]
 }
