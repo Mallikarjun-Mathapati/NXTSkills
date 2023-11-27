@@ -13,7 +13,6 @@ const NavBar = () => {
     } else {
       setNav(false);
     }
-    console.log(Scroll);
   };
   useEffect(() => {
     window.addEventListener("scroll", NavActive);
@@ -32,6 +31,7 @@ const NavBar = () => {
               <NavLink to="/About-us"> About Us</NavLink>
               <NavLink to="/Services"> Services</NavLink>
               <NavLink to="/Blog"> Blog</NavLink>
+              <NavLink to="/Gallery"> Gallery</NavLink>
               <NavLink to="/Contact-us"> Contact Us</NavLink>
             </div>
           </div>
@@ -102,6 +102,10 @@ const NavBar = () => {
           <NavLink to="/Blog" onClick={() => setMenu(false)}>
             {" "}
             Blog
+          </NavLink>
+          <NavLink to="/Gallery" onClick={() => setMenu(false)}>
+            {" "}
+            Gallery
           </NavLink>
           <NavLink to="/Contact-us" onClick={() => setMenu(false)}>
             {" "}
