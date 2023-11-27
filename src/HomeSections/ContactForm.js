@@ -95,7 +95,7 @@ const ContactForm = () => {
                   </div>
                   <div className="contact-from-last-name same-form">
                     <label htmlFor="Last-Name">Last Name</label>
-                    <input type="text" placeholder="Gowda" name="Last-Name" />
+                    <input type="text" placeholder="J" name="Last-Name" />
                   </div>
                 </div>
                 <div className="contact-from-company-name same-form">
@@ -116,7 +116,7 @@ const ContactForm = () => {
                   <input
                     type="email"
                     required
-                    placeholder="shivagowda@example.com"
+                    placeholder="example@example.com"
                     name="Email"
                   />
                 </div>
