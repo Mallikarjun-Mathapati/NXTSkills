@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NXTSkills/static/css/main.c21b8923.css",
-    "main.js": "/NXTSkills/static/js/main.0a84e153.js",
+    "main.js": "/NXTSkills/static/js/main.1e9f0f67.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/process.svg": "/NXTSkills/static/media/process.fdbdfea5f7f2e3a9dd4a99256d5ecba0.svg",
     "static/media/BRANDS.png": "/NXTSkills/static/media/BRANDS.e315bc52089347360191.png",
@@ -41,11 +41,11 @@
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
     "static/media/Single Service hero.svg": "/NXTSkills/static/media/Single Service hero.09c2f13070840709cb03.svg",
     "main.c21b8923.css.map": "/NXTSkills/static/css/main.c21b8923.css.map",
-    "main.0a84e153.js.map": "/NXTSkills/static/js/main.0a84e153.js.map",
+    "main.1e9f0f67.js.map": "/NXTSkills/static/js/main.1e9f0f67.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c21b8923.css",
-    "static/js/main.0a84e153.js"
+    "static/js/main.1e9f0f67.js"
   ]
 }
