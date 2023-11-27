@@ -20,7 +20,9 @@
   width: 100%;
 }
 .swiper-slide-hero-1 {
-  background-image: url("../HeroSection.js//HeroSection/Slide-1.png");
+  /* background-image: url("../HeroSection.js//HeroSection/Slide-1.png"); */
+  /* background: linear-gradient(107deg, #00b4c6 0%, #008ae7 100%); */
+  background-image: url("./HeroSection/slide-1-1.png");
 }
 
 /* .swiper-slide img {

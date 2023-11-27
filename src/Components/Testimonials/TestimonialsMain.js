@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Testimonials.css";
 import ArrowRight from "./Img/Arrow right.svg";
 import ArrowLeft from "./Img/Arrow left.svg";
+import Quote1 from "./Img/quote.svg";
+import Quote2 from "./Img/quote-1.svg";
 
 const TestimomialsMain = () => {
   const testimonialsData = [
@@ -48,6 +50,12 @@ const TestimomialsMain = () => {
     <>
       <div className="testimonials-container">
         <div className="testimonials-list">
+          <div className="testimonials-quote-img-1">
+            <img src={Quote1} alt="" />
+          </div>
+          <div className="testimonials-quote-img-2">
+            <img src={Quote2} alt="" />
+          </div>
           {testimonialsData.map((testimonial, index) => (
             <div
               key={testimonial.id}
@@ -64,10 +72,6 @@ const TestimomialsMain = () => {
                   : ""
               }`}
             >
-              <p className="testimonial-comment">
-                <span>"</span>
-                {testimonial.comment} <span>"</span>{" "}
-              </p>
               <div className="testimonial-comment-name-img">
                 <img src={testimonial.img} alt={testimonial.name} />
                 <div className="testimonial-comment-name">
@@ -80,6 +84,9 @@ const TestimomialsMain = () => {
                   </p>
                 </div>
               </div>
+              <p className="testimonial-comment">
+                <span>"</span> {testimonial.comment} <span>"</span>{" "}
+              </p>
             </div>
           ))}
         </div>

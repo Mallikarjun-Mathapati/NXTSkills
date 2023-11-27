@@ -85,7 +85,7 @@ const NxtSkillsPower = () => {
             <div className="nxt-skills-power-gird-2">
               <div className="nxt-skills-power-gird-2-detail">
                 <h4>What We Do ?</h4>
-                <h3>our impact on organizations is not just profound</h3>
+                <h3>our impact on organizations is what Our Success Says</h3>
                 <p>
                   it's a game-changer. We don't merely provide services; we
                   revolutionize the way businesses operate, driving them toward

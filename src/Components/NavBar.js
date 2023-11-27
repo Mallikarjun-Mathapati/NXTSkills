@@ -40,7 +40,10 @@ const NavBar = () => {
             <div
               className={`nav-social-icon ${nav ? "nav-social-icon-hide" : ""}`}
             >
-              <Link target="_blank" to="/">
+              <Link
+                target="_blank"
+                to="https://www.facebook.com/Nxtskillsitsolutions/"
+              >
                 <i className="fa-brands fa-facebook"></i>
               </Link>
               <Link target="_blank" to="/">

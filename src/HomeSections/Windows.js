@@ -74,7 +74,10 @@ const Windows = () => {
                 <img src={Phone} alt="Svg" />
               </Link>
               <div className="window windows-grid-14 flex">
-                <Link to="/" className="windows-grid-14-1 flex">
+                <Link
+                  to="https://www.facebook.com/Nxtskillsitsolutions/"
+                  className="windows-grid-14-1 flex"
+                >
                   <div className="windows-grid-14-1-hide"></div>
                   <img src={facebook} alt="Facebook" />
                 </Link>

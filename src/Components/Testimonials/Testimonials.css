@@ -2,36 +2,53 @@
 .testimonial {
   width: 100%;
   margin: 10rem 0;
+  background-image: url("./Img/Testimonial-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 3.12rem 0;
 }
 .testimonial-heading {
-  margin-bottom: 3rem;
+  margin-bottom: 0.7rem;
+  text-align: center;
 }
 .testimonial-main-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
   gap: 2rem;
 }
 .testimonial-grid-1 p {
-  width: 19rem;
   font-weight: 500;
+  text-align: center;
 }
 
 .testimonials-container {
-  max-width: 47rem;
+  max-width: 57rem;
   margin: 0 auto;
   text-align: center;
   padding: 2rem;
-  background: #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 5%;
-  border: 1px solid #c9c9c9;
+  /* background: #fff; */
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  /* border-radius: 5%; */
+  /* border: 1px solid #c9c9c9; */
 }
 
 .testimonials-list {
   position: relative;
-  height: 260px;
+  height: 400px;
   overflow: hidden;
   z-index: 1;
+}
+.testimonials-quote-img-1 {
+  position: absolute;
+  top: 90px;
+  right: 640px;
+}
+.testimonials-quote-img-2 {
+  position: absolute;
+  top: 180px;
+  right: 20px;
+  z-index: -1;
 }
 
 .testimonial-item {
@@ -58,13 +75,16 @@
   transform: translateX(100%);
 }
 .testimonial-comment-name-img {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   display: flex;
-  gap: 1rem;
-  /* justify-content: center; */
+  gap: 0.5rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.3rem;
 }
 .testimonial-comment-name-img img {
-  width: 3.125rem;
+  width: 4.8rem;
 }
 .testimonial-comment-name {
   display: flex;
@@ -74,25 +94,23 @@
 }
 
 .testimonial-comment {
-  color: #000000;
+  color: #000;
   font-family: "Poppins";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 2.0625rem;
-  text-transform: capitalize;
-  text-align: left;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 2.25rem;
+  text-align: center;
 }
 .testimonial-comment span {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  color: #253559;
 }
 
 .testimonial-comment-name-1 {
-  color: #000000;
-  font-family: "Poppins";
-  font-size: 1rem;
-  font-weight: 500;
-  text-transform: capitalize;
+  color: #253559;
+  text-align: center;
+  font-family: "poppins";
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 .testimonial-comment-name-2 {
   color: #898989;
@@ -103,30 +121,18 @@
 }
 .testimonial-navigation-buttons {
   display: flex;
-  gap: 5rem;
-  justify-content: flex-end;
+  justify-content: space-around;
   z-index: 2;
+  /* margin-top: 2rem; */
 }
 
 .testimonial-navigation-buttons button {
   all: unset;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 @media (max-width: 930px) {
-  .testimonial-main-grid {
-    grid-template-columns: 1fr;
-    gap: 5rem;
-  }
-  .testimonial-navigation-buttons {
-    justify-content: space-around;
-  }
-  .testimonial-comment-name-img {
-    justify-content: center;
-  }
-  .testimonial-comment {
-    text-align: center;
-  }
   .testimonial-heading {
     margin-bottom: 1.5rem;
   }
@@ -136,15 +142,35 @@
 }
 @media (max-width: 930px) {
   .testimonials-list {
-    height: 300px;
+    height: 400px;
   }
   .testimonial-navigation-buttons {
     margin-top: 1rem;
   }
 }
+@media (max-width: 768px) {
+  .testimonial-comment {
+    font-size: 1rem;
+  }
+  .testimonial-comment-name-1 {
+    font-size: 1.1rem;
+  }
+  .testimonial-comment-name-img img {
+    width: 4rem;
+  }
+}
+@media (max-width: 640px) {
+  .testimonials-list {
+    position: relative;
+    height: 450px;
+  }
+  .testimonials-container {
+    padding: 0;
+  }
+}
 @media (max-width: 550px) {
   .testimonials-list {
-    height: 350px;
+    height: 450px;
   }
   .testimonial-main-grid {
     grid-template-columns: 1fr;
@@ -154,17 +180,23 @@
     font-size: 0.9rem;
     line-height: 1.8rem;
   }
+  .testimonial-comment-name-img {
+    margin-bottom: 1rem;
+  }
+  .testimonial-navigation-buttons {
+    margin-top: 1rem;
+  }
 }
 @media (max-width: 425px) {
   .testimonial-navigation-buttons button img {
-    width: 2.18rem;
+    width: 0.88rem;
   }
   .testimonials-list {
     height: 400px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 350px) {
   .testimonials-list {
-    height: 450px;
+    height: 500px;
   }
 }

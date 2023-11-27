@@ -36,7 +36,7 @@ const WhyNxtskill = () => {
     <>
       <div className="why-nxt">
         <div className="why-nxt-heading flex">
-          <h2>WHY NXTSKILL?</h2>
+          <h2>WHY NXTSKILLS?</h2>
           <p>Your Success is Our Priority</p>
         </div>
         <div className="container">

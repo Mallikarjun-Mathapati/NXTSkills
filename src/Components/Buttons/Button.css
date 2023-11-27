@@ -16,7 +16,9 @@
   z-index: 1;
   cursor: pointer;
 }
-
+.button-main a {
+  -webkit-tap-highlight-color: transparent;
+}
 .swiper-slide-hero-2-button:before {
   content: "";
   position: absolute;
@@ -81,14 +83,17 @@
   background-color: transparent;
 }
 .swiper-slide-hero-1-sub-button:hover:before {
-  background-color: #407bff;
+  /* background-color: #407bff; */
+  background-color: transparent;
 }
 
 .swiper-slide-hero-1-sub-button:hover:after {
-  background-color: #407bff;
+  /* background-color: #407bff; */
+  background-color: transparent;
 }
 .swiper-slide-hero-1-sub-button:after {
-  background-color: #407bff;
+  /* background-color: #407bff; */
+  background-color: transparent;
 }
 
 /* Banner Button  */

@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 import Email from "../Images/HomeSection/Contact-form/email.svg";
 import ContactIcon from "../Images/HomeSection/Contact-form/Contact.svg";
 
 const ContactForm = () => {
+  const form = useRef();
+  const SendMail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_qgr6cnk",
+        "template_oyn93o9",
+        form.current,
+        "Xnjw2klcHrEtnWyqz"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <>
       <div className="contact-form">
@@ -52,7 +75,9 @@ const ContactForm = () => {
             </div>
             <div className="contact-from-grid-from">
               <form
-                action="https://formsubmit.co/malluma9045@gmail.com"
+                ref={form}
+                onSubmit={SendMail}
+                // action="https://formsubmit.co/malluma9045@gmail.com"
                 className="contact-from-grid-from"
                 method="POST"
               >
@@ -81,7 +106,7 @@ const ContactForm = () => {
                     type="tel"
                     required
                     placeholder="0123456789"
-                    name="Company-Name"
+                    name="Phone-Number"
                   />
                 </div>
                 <div className="contact-from-email same-form">

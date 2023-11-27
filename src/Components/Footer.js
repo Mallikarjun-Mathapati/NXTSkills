@@ -10,7 +10,7 @@ const Footer = () => {
   const Social = [
     {
       name: "Facebook",
-      link: "https://www.facebook.com/nxtskills",
+      link: "https://www.facebook.com/Nxtskillsitsolutions/",
       icon: Facebook,
       className: "facebook",
     },
