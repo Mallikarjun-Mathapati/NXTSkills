@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/NXTSkills/static/css/main.ed0c74cf.css",
-    "main.js": "/NXTSkills/static/js/main.f7a63ae1.js",
+    "main.css": "/NXTSkills/static/css/main.c21b8923.css",
+    "main.js": "/NXTSkills/static/js/main.68bfc9d4.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
-    "static/media/Slide-1.png": "/NXTSkills/static/media/Slide-1.14405de248dc8dfc055c.png",
     "static/media/process.svg": "/NXTSkills/static/media/process.fdbdfea5f7f2e3a9dd4a99256d5ecba0.svg",
     "static/media/BRANDS.png": "/NXTSkills/static/media/BRANDS.e315bc52089347360191.png",
+    "static/media/slide-1-1.png": "/NXTSkills/static/media/slide-1-1.57fd7e659ee465b3312e.png",
+    "static/media/Testimonial-background.png": "/NXTSkills/static/media/Testimonial-background.e3e3024ca3d6af7635f5.png",
     "static/media/slide-3.png": "/NXTSkills/static/media/slide-3.493d521bbab7da08d1e9.png",
     "static/media/SUB BARND.png": "/NXTSkills/static/media/SUB BARND.d413cb9c059034a20ab4.png",
     "static/media/BLOGWINDOW.png": "/NXTSkills/static/media/BLOGWINDOW.e5cf5a77930e44d21970.png",
@@ -26,23 +27,25 @@
     "static/media/bi_twitter.svg": "/NXTSkills/static/media/bi_twitter.b4159cd939849cdb2d0ebc07786eaae4.svg",
     "static/media/Twitter.svg": "/NXTSkills/static/media/Twitter.2e6b2f040df955b27bc898e14e649384.svg",
     "static/media/ph_phone-fill.svg": "/NXTSkills/static/media/ph_phone-fill.4b85f8dff1fb566d8861ab56156287dc.svg",
+    "static/media/quote-1.svg": "/NXTSkills/static/media/quote-1.e74b5630a40fc5fb681bcbf3757a68e1.svg",
+    "static/media/quote.svg": "/NXTSkills/static/media/quote.be35c55b966371f30b2596b26a631407.svg",
     "static/media/email.svg": "/NXTSkills/static/media/email.7fa4d8f2ed37b8d78da96137220e7746.svg",
     "static/media/ion_location-sharp.svg": "/NXTSkills/static/media/ion_location-sharp.1b5b340b0b906c542c7dc6683b6ded89.svg",
     "index.html": "/NXTSkills/index.html",
-    "static/media/Arrow left.svg": "/NXTSkills/static/media/Arrow left.dbe138fbce76e90e86611a30ab56baa3.svg",
-    "static/media/Arrow right.svg": "/NXTSkills/static/media/Arrow right.c6bb5009d0cb350cd681208586466a0c.svg",
+    "static/media/Arrow right.svg": "/NXTSkills/static/media/Arrow right.2ff0e49eedd33ac5e5f07414eacb72a6.svg",
+    "static/media/Arrow left.svg": "/NXTSkills/static/media/Arrow left.7fbbc5083cafbfafa1081ab312c5be8c.svg",
     "static/media/HEX-black-white.svg": "/NXTSkills/static/media/HEX-black-white.5576809c14d03e1eaaee.svg",
     "static/media/Face.svg": "/NXTSkills/static/media/Face.bb2934ca23c1cff31dd6a503e0c7901a.svg",
     "static/media/lucide_facebook.svg": "/NXTSkills/static/media/lucide_facebook.52b7808764d5776425c347294042a7e6.svg",
     "static/media/HEX-color.svg": "/NXTSkills/static/media/HEX-color.90f2b649034dece27fb1.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
     "static/media/Single Service hero.svg": "/NXTSkills/static/media/Single Service hero.09c2f13070840709cb03.svg",
-    "main.ed0c74cf.css.map": "/NXTSkills/static/css/main.ed0c74cf.css.map",
-    "main.f7a63ae1.js.map": "/NXTSkills/static/js/main.f7a63ae1.js.map",
+    "main.c21b8923.css.map": "/NXTSkills/static/css/main.c21b8923.css.map",
+    "main.68bfc9d4.js.map": "/NXTSkills/static/js/main.68bfc9d4.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed0c74cf.css",
-    "static/js/main.f7a63ae1.js"
+    "static/css/main.c21b8923.css",
+    "static/js/main.68bfc9d4.js"
   ]
 }
