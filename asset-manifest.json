@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NXTSkills/static/css/main.f6517be2.css",
-    "main.js": "/NXTSkills/static/js/main.a1820c07.js",
+    "main.css": "/NXTSkills/static/css/main.e6369591.css",
+    "main.js": "/NXTSkills/static/js/main.95980569.js",
     "static/js/787.f4b3f99d.chunk.js": "/NXTSkills/static/js/787.f4b3f99d.chunk.js",
     "static/media/process.svg": "/NXTSkills/static/media/process.fdbdfea5f7f2e3a9dd4a99256d5ecba0.svg",
     "static/media/BRANDS.png": "/NXTSkills/static/media/BRANDS.e315bc52089347360191.png",
@@ -41,9 +41,9 @@
     "static/media/quote-1.svg": "/NXTSkills/static/media/quote-1.e74b5630a40fc5fb681bcbf3757a68e1.svg",
     "static/media/quote.svg": "/NXTSkills/static/media/quote.be35c55b966371f30b2596b26a631407.svg",
     "static/media/email.svg": "/NXTSkills/static/media/email.7fa4d8f2ed37b8d78da96137220e7746.svg",
+    "index.html": "/NXTSkills/index.html",
     "static/media/ion_location-sharp.svg": "/NXTSkills/static/media/ion_location-sharp.1b5b340b0b906c542c7dc6683b6ded89.svg",
     "static/media/linkedin.svg": "/NXTSkills/static/media/linkedin.259ca436f05f997759cf47d82160e715.svg",
-    "index.html": "/NXTSkills/index.html",
     "static/media/Arrow right.svg": "/NXTSkills/static/media/Arrow right.2ff0e49eedd33ac5e5f07414eacb72a6.svg",
     "static/media/Arrow left.svg": "/NXTSkills/static/media/Arrow left.7fbbc5083cafbfafa1081ab312c5be8c.svg",
     "static/media/HEX-black-white.svg": "/NXTSkills/static/media/HEX-black-white.5576809c14d03e1eaaee.svg",
@@ -52,12 +52,12 @@
     "static/media/HEX-color.svg": "/NXTSkills/static/media/HEX-color.90f2b649034dece27fb1.svg",
     "static/media/google.svg": "/NXTSkills/static/media/google.39468a8d3a627750f0cc3f8e17f9ddf0.svg",
     "static/media/Single Service hero.svg": "/NXTSkills/static/media/Single Service hero.09c2f13070840709cb03.svg",
-    "main.f6517be2.css.map": "/NXTSkills/static/css/main.f6517be2.css.map",
-    "main.a1820c07.js.map": "/NXTSkills/static/js/main.a1820c07.js.map",
+    "main.e6369591.css.map": "/NXTSkills/static/css/main.e6369591.css.map",
+    "main.95980569.js.map": "/NXTSkills/static/js/main.95980569.js.map",
     "787.f4b3f99d.chunk.js.map": "/NXTSkills/static/js/787.f4b3f99d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6517be2.css",
-    "static/js/main.a1820c07.js"
+    "static/css/main.e6369591.css",
+    "static/js/main.95980569.js"
   ]
 }
