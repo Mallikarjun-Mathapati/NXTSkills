@@ -173,7 +173,7 @@
   align-items: baseline;
 }
 .contact-from-grid-details-heading h2 {
-  width: 95%;
+  width: 100%;
 }
 .contact-from-grid-details-heading p {
   color: #000;
@@ -280,6 +280,7 @@
   background: #fff;
   height: 3rem;
   padding-left: 2rem;
+  width: 100%;
 }
 .contact-form-service-option select::placeholder {
   font-size: 1rem;
