@@ -10,12 +10,12 @@ const ContactUs = () => {
           Header="CONTACT US"
           SubHeader="Thank you for your interest"
         />
-        <div className="container">
-          <div className="contact-us-form">
-            <ContactForm />
-          </div>
+        {/* <div className="container"> */}
+        <div className="contact-us-form">
+          <ContactForm />
         </div>
       </div>
+      {/* </div> */}
     </>
   );
 };
