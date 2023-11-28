@@ -10,7 +10,12 @@ const ImageScroll = (props) => {
           >
             <img
               src={props.ImageScrollImage}
-              alt=""
+              alt="Brands"
+              className="text-scroller-main-img-1"
+            />
+            <img
+              src={props.ImageScrollImage}
+              alt="Brands"
               className="text-scroller-main-img-1"
             />
             <img
@@ -20,12 +25,7 @@ const ImageScroll = (props) => {
             />
             <img
               src={props.ImageScrollImage}
-              alt=""
-              className="text-scroller-main-img-1"
-            />
-            <img
-              src={props.ImageScrollImage}
-              alt=""
+              alt="Brands"
               className="text-scroller-main-img-1"
             />
           </div>

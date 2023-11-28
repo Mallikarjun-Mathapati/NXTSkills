@@ -10,8 +10,8 @@
   overflow: hidden;
   font-size: 19px;
   font-weight: 500;
-  color: #df9926;
-  background: #fff;
+  color: #ffffff;
+  background-color: transparent;
   /* color: #000; */
   z-index: 1;
   cursor: pointer;
@@ -43,7 +43,7 @@
   width: 160%;
   height: 190%;
   /* background-color: #4276e9; */
-  background-color: #df9926;
+  /* background-color: #ffffff; */
   border-radius: 50%;
   display: block;
   transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
@@ -52,21 +52,21 @@
 
 .swiper-slide-hero-2-button:hover {
   /* color: #ffffff; */
-  color: #ffffff;
+  color: #000000;
   /* border: 1px solid #4276e9; */
 }
 
 .swiper-slide-hero-2-button:hover:before {
   top: -35%;
   /* background-color: #4276e9; */
-  background-color: #df9926;
+  background-color: white;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
 .swiper-slide-hero-2-button:hover:after {
   top: -45%;
   /* background-color: #4276e9; */
-  background-color: #df9926;
+  background-color: white;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 @media (max-width: 764px) {
@@ -76,65 +76,64 @@
   }
 }
 .swiper-slide-hero-1-sub-button {
-  color: #407bff;
+  color: #ffffff;
 }
 .swiper-slide-hero-1-sub-button:hover {
-  color: #fff;
-  background-color: transparent;
+  color: #00aecb;
 }
 .swiper-slide-hero-1-sub-button:hover:before {
   /* background-color: #407bff; */
-  background-color: transparent;
+  background-color: white;
 }
 
 .swiper-slide-hero-1-sub-button:hover:after {
   /* background-color: #407bff; */
-  background-color: transparent;
+  background-color: white;
 }
 .swiper-slide-hero-1-sub-button:after {
   /* background-color: #407bff; */
-  background-color: transparent;
+  background-color: white;
 }
 
 /* Banner Button  */
 .banner-button-sub {
   margin-top: 2rem;
-  color: #407bff;
+  color: #ffffff !important;
   font: 16px;
   padding: 8px 30px;
 }
 .banner-button-sub:hover {
-  color: #ffffff;
+  color: #407bff !important;
 }
 
 .banner-button-sub:hover:before {
-  background-color: #407bff;
+  background-color: #fff;
 }
 
 .banner-button-sub :hover:after {
-  background-color: #407bff;
+  background-color: #fff;
 }
 .banner-button-sub:hover:after {
-  background-color: #407bff;
+  background-color: #fff;
 }
 /* slide-3 button  */
 .swiper-slide-hero-3-sub-button {
   margin-top: 0rem;
-  color: #f16c51;
+  color: #ffffff;
   font: 16px;
   padding: 8px 30px;
 }
 .swiper-slide-hero-3-sub-button:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .swiper-slide-hero-3-sub-button:hover:before {
-  background-color: #f16c51;
+  background-color: #fff;
 }
 
 .swiper-slide-hero-3-sub-button :hover:after {
-  background-color: #f16c51;
+  background-color: #fff;
 }
 .swiper-slide-hero-3-sub-button:hover:after {
-  background-color: #f16c51;
+  background-color: #fff;
 }

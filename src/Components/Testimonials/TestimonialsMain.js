@@ -12,6 +12,7 @@ const TestimomialsMain = () => {
       name: "Harshith",
       company: "Swiggy",
       img: require("../Testimonials/Img/testimonials img.png"),
+      role: "IT head",
       comment:
         "Grateful to the NxtSkills team for flawlessly managing Swiggy's pan-Karnataka passive networking for the past few years. The services and timing have been impeccable. Their swift execution and focus on service without disrupting the process have been instrumental in maintaining a seamless flow. Thank you for your efficient and reliable support.        ",
     },
@@ -20,6 +21,7 @@ const TestimomialsMain = () => {
       name: "James",
       company: "Hella Infra",
       img: require("../Testimonials/Img/testimonials img.png"),
+      role: "IT head",
       comment:
         "Exceptional service during COVID times! NxtSkills delivered promptly, defying challenges others faced. Ensured on-time delivery as requested, maintaining impeccable quality. Impressed by their efficiency and reliability.        ",
     },
@@ -29,6 +31,7 @@ const TestimomialsMain = () => {
       name: "Jay",
       company: "Tartan sense",
       img: require("../Testimonials/Img/testimonials img.png"),
+      role: "Founder",
       comment:
         "Kudos to NxtSkills for providing exceptional services including CCTV, Biometric, firewall, access point, and passive work for Tartan Sense. The video conference setups were impeccable. Their understanding of client needs, and the friendly workers made the entire experience unparalleled. Remarkable work",
     },
@@ -80,7 +83,7 @@ const TestimomialsMain = () => {
                     {testimonial.name}
                   </p>
                   <p className="testimonial-comment-name-2">
-                    ( {testimonial.company})
+                    ({testimonial.role} of {testimonial.company})
                   </p>
                 </div>
               </div>

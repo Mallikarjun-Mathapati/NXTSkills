@@ -31,7 +31,7 @@ const Gallery = () => {
                       key={index}
                       onClick={() => getImg(item.img)}
                     >
-                      <img src={item.img} alt="" />
+                      <img src={item.img} alt={item.id} />
                     </div>
                   </>
                 );
@@ -47,7 +47,7 @@ const Gallery = () => {
           onClick={() => setOpenphoto(false)}
         >
           <div className="popup-one-photo-img">
-            <img src={onegallery} alt="" />
+            <img src={onegallery} alt={GalleryData.id} />
           </div>
         </div>
         <div

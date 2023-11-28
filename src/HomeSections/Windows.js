@@ -26,7 +26,7 @@ const Windows = () => {
               </Link>
               <div className="window windows-grid-4 flex">
                 <div className="windows-grid-4-hide flex"></div>
-                <img src={Person} alt="Name" />
+                <img src={Person} alt="Random" />
               </div>
               <div className="window windows-grid-5"></div>
               <Link to="/Services" className="window windows-grid-6 flex">
@@ -57,7 +57,7 @@ const Windows = () => {
               </Link>
               <div className="window windows-grid-9 flex">
                 <div className="windows-grid-9-hide"></div>
-                <img src={Logo} alt="Svg" />
+                <img src={Logo} alt="NXTSkills Logo" />
               </div>
               <div className="window windows-grid-10"></div>
               <Link
@@ -66,12 +66,12 @@ const Windows = () => {
                 className="window windows-grid-11 flex"
               >
                 <div className="windows-grid-11-hide"></div>
-                <img src={Location} alt="Svg" />
+                <img src={Location} alt="Location-logo" />
               </Link>
               <div className="window windows-grid-12"></div>
               <Link to="/Contact-Us" className="window windows-grid-13 flex">
                 <div className="windows-grid-13-hide"></div>
-                <img src={Phone} alt="Svg" />
+                <img src={Phone} alt="Phono-logo" />
               </Link>
               <div className="window windows-grid-14 flex">
                 <Link

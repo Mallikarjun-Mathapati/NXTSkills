@@ -1,8 +1,9 @@
 import React from "react";
 import Logo from "../Images/Navbar/Logo.svg";
 import Facebook from "../Images/Navbar/Social/Face.svg";
-import Insta from "../Images/Navbar/Social/Insta.svg";
-import Twitter from "../Images/Navbar/Social/Twitter.svg";
+// import Insta from "../Images/Navbar/Social/Insta.svg";
+// import Twitter from "../Images/Navbar/Social/Twitter.svg";
+import LinkedIn from "../Images/Navbar/Social/linkedin.svg";
 import Google from "../Images/Navbar/Social/google.svg";
 import { NavLink, Link } from "react-router-dom";
 
@@ -14,17 +15,23 @@ const Footer = () => {
       icon: Facebook,
       className: "facebook",
     },
+    // {
+    //   name: "Instagram",
+    //   link: "https://www.facebook.com/nxtskills",
+    //   icon: Insta,
+    //   className: "instagram",
+    // },
+    // {
+    //   name: "Twitter",
+    //   link: "https://www.facebook.com/nxtskills",
+    //   icon: Twitter,
+    //   className: "twitter",
+    // },
     {
-      name: "Instagram",
+      name: "LinkedIn",
       link: "https://www.facebook.com/nxtskills",
-      icon: Insta,
-      className: "instagram",
-    },
-    {
-      name: "Twitter",
-      link: "https://www.facebook.com/nxtskills",
-      icon: Twitter,
-      className: "twitter",
+      icon: LinkedIn,
+      className: "LinkedIn",
     },
     {
       name: "Google",
@@ -40,7 +47,7 @@ const Footer = () => {
           <div className="footer-main-grid">
             <div className="footer-main-grid-1">
               <Link to="/">
-                <img src={Logo} alt="Logo" />
+                <img src={Logo} alt="NXTSkills Logo" />
               </Link>
               <p>
                 Nxtskills is on a mission to set the gold standard for IT
@@ -51,7 +58,7 @@ const Footer = () => {
               </p>
               <div className="footer-social-icon">
                 {Social.map((corr, id) => {
-                  const { link, icon, className } = corr;
+                  const { name, link, icon, className } = corr;
                   return (
                     <>
                       <Link
@@ -62,7 +69,7 @@ const Footer = () => {
                       >
                         <button className="Btn">
                           <span className="svgContainer">
-                            <img src={icon} alt="" />
+                            <img src={icon} alt={name} />
                           </span>
                           <span className="BG"></span>
                         </button>

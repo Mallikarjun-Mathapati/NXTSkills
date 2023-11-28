@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import Email from "../Images/HomeSection/Contact-form/email.svg";
 import ContactIcon from "../Images/HomeSection/Contact-form/Contact.svg";
 
 const ContactForm = () => {
+  const [submit, setSubmit] = useState("");
   const form = useRef();
   const SendMail = (e) => {
     e.preventDefault();
@@ -18,10 +19,14 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setSubmit("Your form has been successfully submitted!");
+          setInterval(() => {
+            setSubmit("");
+          }, 5000);
         },
         (error) => {
           console.log(error.text);
+          setSubmit("Please Try Again");
         }
       );
     e.target.reset();
@@ -77,7 +82,6 @@ const ContactForm = () => {
               <form
                 ref={form}
                 onSubmit={SendMail}
-                // action="https://formsubmit.co/malluma9045@gmail.com"
                 className="contact-from-grid-from"
                 method="POST"
               >
@@ -93,12 +97,23 @@ const ContactForm = () => {
                       name="First-Name"
                     />
                   </div>
-                  <div className="contact-from-last-name same-form">
+                  {/* <div className="contact-from-last-name same-form">
                     <label htmlFor="Last-Name">Last Name</label>
                     <input type="text" placeholder="J" name="Last-Name" />
+                  </div> */}
+                  <div className="contact-from-company-name same-form">
+                    <label htmlFor="Company-Name">
+                      Phone Number <span>*</span>
+                    </label>
+                    <input
+                      type="tel"
+                      required
+                      placeholder="0123456789"
+                      name="Phone-Number"
+                    />
                   </div>
                 </div>
-                <div className="contact-from-company-name same-form">
+                {/* <div className="contact-from-company-name same-form">
                   <label htmlFor="Company-Name">
                     Phone Number <span>*</span>
                   </label>
@@ -108,6 +123,24 @@ const ContactForm = () => {
                     placeholder="0123456789"
                     name="Phone-Number"
                   />
+                </div> */}
+                <div className="same-form contact-form-service-option">
+                  <label htmlFor="service">Services</label>
+                  <select name="services-one">
+                    <option value="">Select</option>
+                    <option value="Cyber Security">Cyber Security</option>
+                    <option value="Endpoint and Synch'd Security solutions">
+                      Endpoint and Synch'd Security solutions
+                    </option>
+                    <option value="IT Managed Services">
+                      IT Managed Services
+                    </option>
+                    <option value="IT Manpower">IT Manpower</option>
+                    <option value="IT Physical Audit">IT Physical Audit</option>
+                    <option value="IT Asset Management">
+                      IT Asset Management
+                    </option>
+                  </select>
                 </div>
                 <div className="contact-from-email same-form">
                   <label htmlFor="Email">
@@ -121,7 +154,7 @@ const ContactForm = () => {
                   />
                 </div>
                 <div className="contact-from-message same-form">
-                  <label htmlFor="Message">Message</label>
+                  <label htmlFor="Message">Description</label>
                   <textarea
                     placeholder="Please enter your message"
                     name="Message"
@@ -132,7 +165,10 @@ const ContactForm = () => {
                     Fields marked with an asterisk (
                     <span style={{ color: "red" }}>*</span>) are required.{" "}
                   </p>
-                  <button value="Submit">Submit</button>
+                  <div className="contact-form-result-button">
+                    <button value="Submit">Submit</button>
+                    <p>{submit}</p>
+                  </div>
                 </div>
               </form>
             </div>

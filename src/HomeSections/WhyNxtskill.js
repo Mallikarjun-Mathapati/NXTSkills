@@ -46,7 +46,7 @@ const WhyNxtskill = () => {
               return (
                 <>
                   <div className="why-nxt-grid-1 flex" key={index}>
-                    <img src={image} alt="icon" key={id} />
+                    <img src={image} alt={title} key={id} />
                     <h3>{title}</h3>
                     <p>{description}</p>
                   </div>

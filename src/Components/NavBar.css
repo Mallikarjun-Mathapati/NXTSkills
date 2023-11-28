@@ -332,6 +332,9 @@
 .google .BG {
   background: linear-gradient(56deg, #b82d25 0%, #ef4e3d 100%);
 }
+.LinkedIn .BG {
+  background: linear-gradient(138deg, #0075b3 0%, #0292cf 73.73%);
+}
 .instagram .BG {
   background: -moz-linear-gradient(
     45deg,

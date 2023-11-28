@@ -26,7 +26,7 @@ const Banner = () => {
                 </div>
               </div>
               <div className="banner-grid-svg flex">
-                <img src={BannerIllu} alt="Banner" />
+                <img src={BannerIllu} alt="Contact-banner" />
               </div>
             </div>
           </div>

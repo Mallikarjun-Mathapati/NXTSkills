@@ -69,10 +69,14 @@
 .swiper-slide-hero-2 {
   width: 100%;
   height: 100%;
-  background: #df9926;
+  /* background: #df9926;
+   */
+  background-image: url("./HeroSection//slid-2-2.png");
+  background-attachment: fixed;
   /* position: relative; */
 }
 .swiper-slide-hero-2-sub {
+  padding: 10rem 0 0 0;
   flex-direction: column;
   width: 100%;
   height: 100%;
@@ -105,7 +109,7 @@
 }
 .swiper-slide-hero-fixed {
   position: absolute;
-  top: 0;
+  top: 115px;
   left: 800px;
 }
 .swiper-slide-hero-3 {
@@ -204,6 +208,7 @@
   }
   .swiper-slide-hero-fixed {
     left: 600px;
+    top: 50px;
   }
   .swiper-slide-hero-3-flex-detail h4 {
     font-size: 1.7rem;

@@ -8,18 +8,24 @@ const TopNav = () => {
         <div className="top-nav-flex ">
           <div className="top-nav-flex-1">
             <div className="nav-social-icon">
-              <Link to="/">
+              <Link
+                to="https://www.facebook.com/Nxtskillsitsolutions/"
+                target="_blank"
+              >
                 <i className="fa-brands fa-facebook"></i>
               </Link>
-              <Link to="/">
+              {/* <Link to="/">
                 <i className="fa-brands fa-square-instagram"></i>
+              </Link> */}
+              <Link to="/" target="_blank">
+                <i className="fa-brands fa-linkedin-in"></i>
               </Link>
-              <Link to="/">
+              <Link to="https://wa.me/+919008353635" target="_blank">
                 <i className="fa-brands fa-whatsapp"></i>
               </Link>
-              <Link to="/">
+              {/* <Link to="/">
                 <i className="fa-brands fa-x-twitter"></i>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="top-nav-flex-2">

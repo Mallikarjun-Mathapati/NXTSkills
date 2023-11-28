@@ -17,10 +17,10 @@ const HeroSection = () => {
           slidesPerView={1}
           spaceBetween={1}
           centeredSlides={true}
-          autoplay={{
-            delay: 5000,
-            disableOnInteraction: false,
-          }}
+          // autoplay={{
+          //   delay: 5000,
+          //   disableOnInteraction: false,
+          // }}
           mousewheel={{
             releaseOnEdges: true,
             forceToAxis: true,
@@ -84,7 +84,7 @@ const HeroSection = () => {
                   </h4>
                   <div className="swiper-slide-hero-3-flex-project-detail">
                     <div className="swiper-slide-hero-3-flex-project-detail-1">
-                      <h5>Werehouse Projects</h5>
+                      <h5>warehouse Projects</h5>
                       <p>
                         Planning and implementation of wired/non wired
                         Infrastructure setups, complete network , access
@@ -118,7 +118,7 @@ const HeroSection = () => {
       </div>
       {/* Responsive hero  */}
       <div className="responsive-hero-section">
-        <div className="swiper-slide-hero-1 flex">
+        <div className="swiper-slide-hero-1 swiper-slide-hero-same flex">
           <div className="container">
             <div className="swiper-slide-hero-1-sub flex">
               <h5>Nxt skills</h5>

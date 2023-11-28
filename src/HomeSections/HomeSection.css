@@ -275,6 +275,17 @@
   flex-direction: column;
   gap: 2.5rem;
 }
+.contact-form-service-option select {
+  border: 1px solid #c9c9c9;
+  background: #fff;
+  height: 3rem;
+  padding-left: 2rem;
+}
+.contact-form-service-option select::placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
 .contact-form-button p {
   color: #000;
   font-weight: 500;
@@ -288,6 +299,16 @@
   font-weight: 700;
   background: #407bff;
   text-align: center;
+}
+.contact-form-result-button {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contact-form-result-button p {
+  transition: all 0.5s;
+  color: #15ad08;
 }
 @media (max-width: 950px) {
   .contact-from-grid {
@@ -1514,7 +1535,7 @@
 /* SERVICES HOME  */
 .services-home-section {
   width: 100%;
-  margin: 10rem 0;
+  margin: 8rem 0;
 }
 .services-home-section-main-grid {
   display: grid;
